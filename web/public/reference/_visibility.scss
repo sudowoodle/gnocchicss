@@ -1,0 +1,3 @@
+@mixin visible   { visibility: visible; }  .visible { @include visible; }
+@mixin invisible { visibility: hidden; }   .invisible { @include invisible; }
+@mixin collapse  { visibility: collapse; } .collapse { @include collapse; }

@@ -1,0 +1,8 @@
+@use "gnocchicss" as *;
+@use "styles/fonts" as *;
+
+html {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #111827;
+    color: white;
+}

@@ -1,0 +1,2 @@
+@mixin box-border  { box-sizing: border-box; }  .box-border { @include box-border; }
+@mixin box-content { box-sizing: content-box; } .box-content { @include box-content; }

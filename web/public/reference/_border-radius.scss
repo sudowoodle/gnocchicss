@@ -1,0 +1,135 @@
+@mixin rounded-none    { border-radius: 0; }                                                                    .rounded-none { @include rounded-none; }
+@mixin rounded-sm      { border-radius: 0.125rem; /* 2px */ }                                                   .rounded-sm { @include rounded-sm; }
+@mixin rounded         { border-radius: 0.25rem; /* 4px */ }                                                    .rounded { @include rounded; }
+@mixin rounded-md      { border-radius: 0.375rem; /* 6px */ }                                                   .rounded-md { @include rounded-md; }
+@mixin rounded-lg      { border-radius: 0.5rem; /* 8px */ }                                                     .rounded-lg { @include rounded-lg; }
+@mixin rounded-xl      { border-radius: 0.75rem; /* 12px */ }                                                   .rounded-xl { @include rounded-xl; }
+@mixin rounded-2xl     { border-radius: 1rem; /* 16px */ }                                                      .rounded-2xl { @include rounded-2xl; }
+@mixin rounded-3xl     { border-radius: 1.5rem; /* 24px */ }                                                    .rounded-3xl { @include rounded-3xl; }
+@mixin rounded-full    { border-radius: 9999px; }                                                               .rounded-full { @include rounded-full; }
+@mixin rounded-s-none  { border-start-start-radius: 0px; border-end-start-radius: 0px; }                        .rounded-s-none { @include rounded-s-none; }
+@mixin rounded-s-sm    { border-start-start-radius: 0.125rem; border-end-start-radius: 0.125rem; /* 2px */ }    .rounded-s-sm { @include rounded-s-sm; }
+@mixin rounded-s       { border-start-start-radius: 0.25rem; border-end-start-radius: 0.25rem; /* 4px */ }      .rounded-s { @include rounded-s; }
+@mixin rounded-s-md    { border-start-start-radius: 0.375rem; border-end-start-radius: 0.375rem; /* 6px */ }    .rounded-s-md { @include rounded-s-md; }
+@mixin rounded-s-lg    { border-start-start-radius: 0.5rem; border-end-start-radius: 0.5rem; /* 8px */ }        .rounded-s-lg { @include rounded-s-lg; }
+@mixin rounded-s-xl    { border-start-start-radius: 0.75rem; border-end-start-radius: 0.75rem; /* 12px */ }     .rounded-s-xl { @include rounded-s-xl; }
+@mixin rounded-s-2xl   { border-start-start-radius: 1rem; border-end-start-radius: 1rem; /* 16px */ }           .rounded-s-2xl { @include rounded-s-2xl; }
+@mixin rounded-s-3xl   { border-start-start-radius: 1.5rem; border-end-start-radius: 1.5rem; /* 24px */ }       .rounded-s-3xl { @include rounded-s-3xl; }
+@mixin rounded-s-full  { border-start-start-radius: 9999px; border-end-start-radius: 9999px; }                  .rounded-s-full { @include rounded-s-full; }
+@mixin rounded-e-none  { border-start-end-radius: 0px; border-end-end-radius: 0px; }                            .rounded-e-none { @include rounded-e-none; }
+@mixin rounded-e-sm    { border-start-end-radius: 0.125rem; border-end-end-radius: 0.125rem; /* 2px */ }        .rounded-e-sm { @include rounded-e-sm; }
+@mixin rounded-e       { border-start-end-radius: 0.25rem; border-end-end-radius: 0.25rem; /* 4px */ }          .rounded-e { @include rounded-e; }
+@mixin rounded-e-md    { border-start-end-radius: 0.375rem; border-end-end-radius: 0.375rem; /* 6px */ }        .rounded-e-md { @include rounded-e-md; }
+@mixin rounded-e-lg    { border-start-end-radius: 0.5rem; border-end-end-radius: 0.5rem; /* 8px */ }            .rounded-e-lg { @include rounded-e-lg; }
+@mixin rounded-e-xl    { border-start-end-radius: 0.75rem; border-end-end-radius: 0.75rem; /* 12px */ }         .rounded-e-xl { @include rounded-e-xl; }
+@mixin rounded-e-2xl   { border-start-end-radius: 1rem; border-end-end-radius: 1rem; /* 16px */ }               .rounded-e-2xl { @include rounded-e-2xl; }
+@mixin rounded-e-3xl   { border-start-end-radius: 1.5rem; border-end-end-radius: 1.5rem; /* 24px */ }           .rounded-e-3xl { @include rounded-e-3xl; }
+@mixin rounded-e-full  { border-start-end-radius: 9999px; border-end-end-radius: 9999px; }                      .rounded-e-full { @include rounded-e-full; }
+@mixin rounded-t-none  { border-top-left-radius: 0px; border-top-right-radius: 0px; }                           .rounded-t-none { @include rounded-t-none; }
+@mixin rounded-t-sm    { border-top-left-radius: 0.125rem; border-top-right-radius: 0.125rem; /* 2px */ }       .rounded-t-sm { @include rounded-t-sm; }
+@mixin rounded-t       { border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; /* 4px */ }         .rounded-t { @include rounded-t; }
+@mixin rounded-t-md    { border-top-left-radius: 0.375rem; border-top-right-radius: 0.375rem; /* 6px */ }       .rounded-t-md { @include rounded-t-md; }
+@mixin rounded-t-lg    { border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; /* 8px */ }           .rounded-t-lg { @include rounded-t-lg; }
+@mixin rounded-t-xl    { border-top-left-radius: 0.75rem; border-top-right-radius: 0.75rem; /* 12px */ }        .rounded-t-xl { @include rounded-t-xl; }
+@mixin rounded-t-2xl   { border-top-left-radius: 1rem; border-top-right-radius: 1rem; /* 16px */ }              .rounded-t-2xl { @include rounded-t-2xl; }
+@mixin rounded-t-3xl   { border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem; /* 24px */ }          .rounded-t-3xl { @include rounded-t-3xl; }
+@mixin rounded-t-full  { border-top-left-radius: 9999px; border-top-right-radius: 9999px; }                     .rounded-t-full { @include rounded-t-full; }
+@mixin rounded-r-none  { border-top-right-radius: 0px; border-bottom-right-radius: 0px; }                       .rounded-r-none { @include rounded-r-none; }
+@mixin rounded-r-sm    { border-top-right-radius: 0.125rem; border-bottom-right-radius: 0.125rem; /* 2px */ }   .rounded-r-sm { @include rounded-r-sm; }
+@mixin rounded-r       { border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; /* 4px */ }     .rounded-r { @include rounded-r; }
+@mixin rounded-r-md    { border-top-right-radius: 0.375rem; border-bottom-right-radius: 0.375rem; /* 6px */ }   .rounded-r-md { @include rounded-r-md; }
+@mixin rounded-r-lg    { border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; /* 8px */ }       .rounded-r-lg { @include rounded-r-lg; }
+@mixin rounded-r-xl    { border-top-right-radius: 0.75rem; border-bottom-right-radius: 0.75rem; /* 12px */ }    .rounded-r-xl { @include rounded-r-xl; }
+@mixin rounded-r-2xl   { border-top-right-radius: 1rem; border-bottom-right-radius: 1rem; /* 16px */ }          .rounded-r-2xl { @include rounded-r-2xl; }
+@mixin rounded-r-3xl   { border-top-right-radius: 1.5rem; border-bottom-right-radius: 1.5rem; /* 24px */ }      .rounded-r-3xl { @include rounded-r-3xl; }
+@mixin rounded-r-full  { border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; }                 .rounded-r-full { @include rounded-r-full; }
+@mixin rounded-b-none  { border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }                     .rounded-b-none { @include rounded-b-none; }
+@mixin rounded-b-sm    { border-bottom-left-radius: 0.125rem; border-bottom-right-radius: 0.125rem; /* 2px */ } .rounded-b-sm { @include rounded-b-sm; }
+@mixin rounded-b       { border-bottom-left-radius: 0.25rem; border-bottom-right-radius: 0.25rem; /* 4px */ }   .rounded-b { @include rounded-b; }
+@mixin rounded-b-md    { border-bottom-left-radius: 0.375rem; border-bottom-right-radius: 0.375rem; /* 6px */ } .rounded-b-md { @include rounded-b-md; }
+@mixin rounded-b-lg    { border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; /* 8px */ }     .rounded-b-lg { @include rounded-b-lg; }
+@mixin rounded-b-xl    { border-bottom-left-radius: 0.75rem; border-bottom-right-radius: 0.75rem; /* 12px */ }  .rounded-b-xl { @include rounded-b-xl; }
+@mixin rounded-b-2xl   { border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; /* 16px */ }        .rounded-b-2xl { @include rounded-b-2xl; }
+@mixin rounded-b-3xl   { border-bottom-left-radius: 1.5rem; border-bottom-right-radius: 1.5rem; /* 24px */ }    .rounded-b-3xl { @include rounded-b-3xl; }
+@mixin rounded-b-full  { border-bottom-left-radius: 9999px; border-bottom-right-radius: 9999px; }               .rounded-b-full { @include rounded-b-full; }
+@mixin rounded-l-none  { border-top-left-radius: 0px; border-bottom-left-radius: 0px; }                         .rounded-l-none { @include rounded-l-none; }
+@mixin rounded-l-sm    { border-top-left-radius: 0.125rem; border-bottom-left-radius: 0.125rem; /* 2px */ }     .rounded-l-sm { @include rounded-l-sm; }
+@mixin rounded-l       { border-top-left-radius: 0.25rem; border-bottom-left-radius: 0.25rem; /* 4px */ }       .rounded-l { @include rounded-l; }
+@mixin rounded-l-md    { border-top-left-radius: 0.375rem; border-bottom-left-radius: 0.375rem; /* 6px */ }     .rounded-l-md { @include rounded-l-md; }
+@mixin rounded-l-lg    { border-top-left-radius: 0.5rem; border-bottom-left-radius: 0.5rem; /* 8px */ }         .rounded-l-lg { @include rounded-l-lg; }
+@mixin rounded-l-xl    { border-top-left-radius: 0.75rem; border-bottom-left-radius: 0.75rem; /* 12px */ }      .rounded-l-xl { @include rounded-l-xl; }
+@mixin rounded-l-2xl   { border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; /* 16px */ }            .rounded-l-2xl { @include rounded-l-2xl; }
+@mixin rounded-l-3xl   { border-top-left-radius: 1.5rem; border-bottom-left-radius: 1.5rem; /* 24px */ }        .rounded-l-3xl { @include rounded-l-3xl; }
+@mixin rounded-l-full  { border-top-left-radius: 9999px; border-bottom-left-radius: 9999px; }                   .rounded-l-full { @include rounded-l-full; }
+@mixin rounded-ss-none { border-start-start-radius: 0px; }                                                      .rounded-ss-none { @include rounded-ss-none; }
+@mixin rounded-ss-sm   { border-start-start-radius: 0.125rem; /* 2px */ }                                       .rounded-ss-sm { @include rounded-ss-sm; }
+@mixin rounded-ss      { border-start-start-radius: 0.25rem; /* 4px */ }                                        .rounded-ss { @include rounded-ss; }
+@mixin rounded-ss-md   { border-start-start-radius: 0.375rem; /* 6px */ }                                       .rounded-ss-md { @include rounded-ss-md; }
+@mixin rounded-ss-lg   { border-start-start-radius: 0.5rem; /* 8px */ }                                         .rounded-ss-lg { @include rounded-ss-lg; }
+@mixin rounded-ss-xl   { border-start-start-radius: 0.75rem; /* 12px */ }                                       .rounded-ss-xl { @include rounded-ss-xl; }
+@mixin rounded-ss-2xl  { border-start-start-radius: 1rem; /* 16px */ }                                          .rounded-ss-2xl { @include rounded-ss-2xl; }
+@mixin rounded-ss-3xl  { border-start-start-radius: 1.5rem; /* 24px */ }                                        .rounded-ss-3xl { @include rounded-ss-3xl; }
+@mixin rounded-ss-full { border-start-start-radius: 9999px; }                                                   .rounded-ss-full { @include rounded-ss-full; }
+@mixin rounded-se-none { border-start-end-radius: 0px; }                                                        .rounded-se-none { @include rounded-se-none; }
+@mixin rounded-se-sm   { border-start-end-radius: 0.125rem; /* 2px */ }                                         .rounded-se-sm { @include rounded-se-sm; }
+@mixin rounded-se      { border-start-end-radius: 0.25rem; /* 4px */ }                                          .rounded-se { @include rounded-se; }
+@mixin rounded-se-md   { border-start-end-radius: 0.375rem; /* 6px */ }                                         .rounded-se-md { @include rounded-se-md; }
+@mixin rounded-se-lg   { border-start-end-radius: 0.5rem; /* 8px */ }                                           .rounded-se-lg { @include rounded-se-lg; }
+@mixin rounded-se-xl   { border-start-end-radius: 0.75rem; /* 12px */ }                                         .rounded-se-xl { @include rounded-se-xl; }
+@mixin rounded-se-2xl  { border-start-end-radius: 1rem; /* 16px */ }                                            .rounded-se-2xl { @include rounded-se-2xl; }
+@mixin rounded-se-3xl  { border-start-end-radius: 1.5rem; /* 24px */ }                                          .rounded-se-3xl { @include rounded-se-3xl; }
+@mixin rounded-se-full { border-start-end-radius: 9999px; }                                                     .rounded-se-full { @include rounded-se-full; }
+@mixin rounded-ee-none { border-end-end-radius: 0px; }                                                          .rounded-ee-none { @include rounded-ee-none; }
+@mixin rounded-ee-sm   { border-end-end-radius: 0.125rem; /* 2px */ }                                           .rounded-ee-sm { @include rounded-ee-sm; }
+@mixin rounded-ee      { border-end-end-radius: 0.25rem; /* 4px */ }                                            .rounded-ee { @include rounded-ee; }
+@mixin rounded-ee-md   { border-end-end-radius: 0.375rem; /* 6px */ }                                           .rounded-ee-md { @include rounded-ee-md; }
+@mixin rounded-ee-lg   { border-end-end-radius: 0.5rem; /* 8px */ }                                             .rounded-ee-lg { @include rounded-ee-lg; }
+@mixin rounded-ee-xl   { border-end-end-radius: 0.75rem; /* 12px */ }                                           .rounded-ee-xl { @include rounded-ee-xl; }
+@mixin rounded-ee-2xl  { border-end-end-radius: 1rem; /* 16px */ }                                              .rounded-ee-2xl { @include rounded-ee-2xl; }
+@mixin rounded-ee-3xl  { border-end-end-radius: 1.5rem; /* 24px */ }                                            .rounded-ee-3xl { @include rounded-ee-3xl; }
+@mixin rounded-ee-full { border-end-end-radius: 9999px; }                                                       .rounded-ee-full { @include rounded-ee-full; }
+@mixin rounded-es-none { border-end-start-radius: 0px; }                                                        .rounded-es-none { @include rounded-es-none; }
+@mixin rounded-es-sm   { border-end-start-radius: 0.125rem; /* 2px */ }                                         .rounded-es-sm { @include rounded-es-sm; }
+@mixin rounded-es      { border-end-start-radius: 0.25rem; /* 4px */ }                                          .rounded-es { @include rounded-es; }
+@mixin rounded-es-md   { border-end-start-radius: 0.375rem; /* 6px */ }                                         .rounded-es-md { @include rounded-es-md; }
+@mixin rounded-es-lg   { border-end-start-radius: 0.5rem; /* 8px */ }                                           .rounded-es-lg { @include rounded-es-lg; }
+@mixin rounded-es-xl   { border-end-start-radius: 0.75rem; /* 12px */ }                                         .rounded-es-xl { @include rounded-es-xl; }
+@mixin rounded-es-2xl  { border-end-start-radius: 1rem; /* 16px */ }                                            .rounded-es-2xl { @include rounded-es-2xl; }
+@mixin rounded-es-3xl  { border-end-start-radius: 1.5rem; /* 24px */ }                                          .rounded-es-3xl { @include rounded-es-3xl; }
+@mixin rounded-es-full { border-end-start-radius: 9999px; }                                                     .rounded-es-full { @include rounded-es-full; }
+@mixin rounded-tl-none { border-top-left-radius: 0px; }                                                         .rounded-tl-none { @include rounded-tl-none; }
+@mixin rounded-tl-sm   { border-top-left-radius: 0.125rem; /* 2px */ }                                          .rounded-tl-sm { @include rounded-tl-sm; }
+@mixin rounded-tl      { border-top-left-radius: 0.25rem; /* 4px */ }                                           .rounded-tl { @include rounded-tl; }
+@mixin rounded-tl-md   { border-top-left-radius: 0.375rem; /* 6px */ }                                          .rounded-tl-md { @include rounded-tl-md; }
+@mixin rounded-tl-lg   { border-top-left-radius: 0.5rem; /* 8px */ }                                            .rounded-tl-lg { @include rounded-tl-lg; }
+@mixin rounded-tl-xl   { border-top-left-radius: 0.75rem; /* 12px */ }                                          .rounded-tl-xl { @include rounded-tl-xl; }
+@mixin rounded-tl-2xl  { border-top-left-radius: 1rem; /* 16px */ }                                             .rounded-tl-2xl { @include rounded-tl-2xl; }
+@mixin rounded-tl-3xl  { border-top-left-radius: 1.5rem; /* 24px */ }                                           .rounded-tl-3xl { @include rounded-tl-3xl; }
+@mixin rounded-tl-full { border-top-left-radius: 9999px; }                                                      .rounded-tl-full { @include rounded-tl-full; }
+@mixin rounded-tr-none { border-top-right-radius: 0px; }                                                        .rounded-tr-none { @include rounded-tr-none; }
+@mixin rounded-tr-sm   { border-top-right-radius: 0.125rem; /* 2px */ }                                         .rounded-tr-sm { @include rounded-tr-sm; }
+@mixin rounded-tr      { border-top-right-radius: 0.25rem; /* 4px */ }                                          .rounded-tr { @include rounded-tr; }
+@mixin rounded-tr-md   { border-top-right-radius: 0.375rem; /* 6px */ }                                         .rounded-tr-md { @include rounded-tr-md; }
+@mixin rounded-tr-lg   { border-top-right-radius: 0.5rem; /* 8px */ }                                           .rounded-tr-lg { @include rounded-tr-lg; }
+@mixin rounded-tr-xl   { border-top-right-radius: 0.75rem; /* 12px */ }                                         .rounded-tr-xl { @include rounded-tr-xl; }
+@mixin rounded-tr-2xl  { border-top-right-radius: 1rem; /* 16px */ }                                            .rounded-tr-2xl { @include rounded-tr-2xl; }
+@mixin rounded-tr-3xl  { border-top-right-radius: 1.5rem; /* 24px */ }                                          .rounded-tr-3xl { @include rounded-tr-3xl; }
+@mixin rounded-tr-full { border-top-right-radius: 9999px; }                                                     .rounded-tr-full { @include rounded-tr-full; }
+@mixin rounded-br-none { border-bottom-right-radius: 0px; }                                                     .rounded-br-none { @include rounded-br-none; }
+@mixin rounded-br-sm   { border-bottom-right-radius: 0.125rem; /* 2px */ }                                      .rounded-br-sm { @include rounded-br-sm; }
+@mixin rounded-br      { border-bottom-right-radius: 0.25rem; /* 4px */ }                                       .rounded-br { @include rounded-br; }
+@mixin rounded-br-md   { border-bottom-right-radius: 0.375rem; /* 6px */ }                                      .rounded-br-md { @include rounded-br-md; }
+@mixin rounded-br-lg   { border-bottom-right-radius: 0.5rem; /* 8px */ }                                        .rounded-br-lg { @include rounded-br-lg; }
+@mixin rounded-br-xl   { border-bottom-right-radius: 0.75rem; /* 12px */ }                                      .rounded-br-xl { @include rounded-br-xl; }
+@mixin rounded-br-2xl  { border-bottom-right-radius: 1rem; /* 16px */ }                                         .rounded-br-2xl { @include rounded-br-2xl; }
+@mixin rounded-br-3xl  { border-bottom-right-radius: 1.5rem; /* 24px */ }                                       .rounded-br-3xl { @include rounded-br-3xl; }
+@mixin rounded-br-full { border-bottom-right-radius: 9999px; }                                                  .rounded-br-full { @include rounded-br-full; }
+@mixin rounded-bl-none { border-bottom-left-radius: 0px; }                                                      .rounded-bl-none { @include rounded-bl-none; }
+@mixin rounded-bl-sm   { border-bottom-left-radius: 0.125rem; /* 2px */ }                                       .rounded-bl-sm { @include rounded-bl-sm; }
+@mixin rounded-bl      { border-bottom-left-radius: 0.25rem; /* 4px */ }                                        .rounded-bl { @include rounded-bl; }
+@mixin rounded-bl-md   { border-bottom-left-radius: 0.375rem; /* 6px */ }                                       .rounded-bl-md { @include rounded-bl-md; }
+@mixin rounded-bl-lg   { border-bottom-left-radius: 0.5rem; /* 8px */ }                                         .rounded-bl-lg { @include rounded-bl-lg; }
+@mixin rounded-bl-xl   { border-bottom-left-radius: 0.75rem; /* 12px */ }                                       .rounded-bl-xl { @include rounded-bl-xl; }
+@mixin rounded-bl-2xl  { border-bottom-left-radius: 1rem; /* 16px */ }                                          .rounded-bl-2xl { @include rounded-bl-2xl; }
+@mixin rounded-bl-3xl  { border-bottom-left-radius: 1.5rem; /* 24px */ }                                        .rounded-bl-3xl { @include rounded-bl-3xl; }
+@mixin rounded-bl-full { border-bottom-left-radius: 9999px; }                                                   .rounded-bl-full { @include rounded-bl-full; }

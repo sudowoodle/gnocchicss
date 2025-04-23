@@ -1,0 +1,16 @@
+{
+    "name": "gnocchicss-monorepo",
+    "private": true,
+    "packageManager": "yarn@4.9.1",
+    "devDependencies": {
+        "supports-color": "^10.0.0",
+        "typescript": "5.5.4",
+        "unhead": "^2.0.8"
+    },
+    "workspaces": [
+        "core",
+        "gnocchicss",
+        "cli",
+        "web"
+    ]
+}

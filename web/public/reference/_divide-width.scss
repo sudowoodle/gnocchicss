@@ -1,0 +1,10 @@
+@mixin divide-x-0 { > *:not(:first-child) { border-right-width: 0px; border-left-width: 0px; } } .divide-x-0 { @include divide-x-0; }
+@mixin divide-x-2 { > *:not(:first-child) { border-right-width: 0px; border-left-width: 2px; } } .divide-x-2 { @include divide-x-2; }
+@mixin divide-x-4 { > *:not(:first-child) { border-right-width: 0px; border-left-width: 4px; } } .divide-x-4 { @include divide-x-4; }
+@mixin divide-x-8 { > *:not(:first-child) { border-right-width: 0px; border-left-width: 8px; } } .divide-x-8 { @include divide-x-8; }
+@mixin divide-x   { > *:not(:first-child) { border-right-width: 0px; border-left-width: 1px; } } .divide-x { @include divide-x; }
+@mixin divide-y-0 { > *:not(:first-child) { border-top-width: 0px; border-bottom-width: 0px; } } .divide-y-0 { @include divide-y-0; }
+@mixin divide-y-2 { > *:not(:first-child) { border-top-width: 2px; border-bottom-width: 0px; } } .divide-y-2 { @include divide-y-2; }
+@mixin divide-y-4 { > *:not(:first-child) { border-top-width: 4px; border-bottom-width: 0px; } } .divide-y-4 { @include divide-y-4; }
+@mixin divide-y-8 { > *:not(:first-child) { border-top-width: 8px; border-bottom-width: 0px; } } .divide-y-8 { @include divide-y-8; }
+@mixin divide-y   { > *:not(:first-child) { border-top-width: 1px; border-bottom-width: 0px; } } .divide-y { @include divide-y; }

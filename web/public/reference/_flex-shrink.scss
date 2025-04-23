@@ -1,0 +1,2 @@
+@mixin shrink   { flex-shrink: 1; } .shrink { @include shrink; }
+@mixin shrink-0 { flex-shrink: 0; } .shrink-0 { @include shrink-0; }

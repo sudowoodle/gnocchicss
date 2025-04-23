@@ -1,0 +1,59 @@
+@mixin w-auto   { width: auto; }                .w-auto { @include w-auto; }
+@mixin w-0      { width: 0; }                   .w-0 { @include w-0; }
+@mixin w-px     { width: 1px; }                 .w-px { @include w-px; }
+@mixin w-screen { width: 100vw; }               .w-screen { @include w-screen; }
+@mixin w-svw    { width: 100svw; }              .w-svw { @include w-svw; }
+@mixin w-lvw    { width: 100lvw; }              .w-lvw { @include w-lvw; }
+@mixin w-dvw    { width: 100dvw; }              .w-dvw { @include w-dvw; }
+@mixin w-min    { width: min-content; }         .w-min { @include w-min; }
+@mixin w-max    { width: max-content; }         .w-max { @include w-max; }
+@mixin w-fit    { width: fit-content; }         .w-fit { @include w-fit; }
+@mixin w-1\/2   { width: 50%; }                 .w-1\/2 { @include w-1\/2; }
+@mixin w-1\/3   { width: 33.33333333333333%; }  .w-1\/3 { @include w-1\/3; }
+@mixin w-2\/3   { width: 66.66666666666666%; }  .w-2\/3 { @include w-2\/3; }
+@mixin w-1\/4   { width: 25%; }                 .w-1\/4 { @include w-1\/4; }
+@mixin w-2\/4   { width: 50%; }                 .w-2\/4 { @include w-2\/4; }
+@mixin w-3\/4   { width: 75%; }                 .w-3\/4 { @include w-3\/4; }
+@mixin w-1\/5   { width: 20%; }                 .w-1\/5 { @include w-1\/5; }
+@mixin w-2\/5   { width: 40%; }                 .w-2\/5 { @include w-2\/5; }
+@mixin w-3\/5   { width: 60%; }                 .w-3\/5 { @include w-3\/5; }
+@mixin w-4\/5   { width: 80%; }                 .w-4\/5 { @include w-4\/5; }
+@mixin w-1\/6   { width: 16.666666666666664%; } .w-1\/6 { @include w-1\/6; }
+@mixin w-2\/6   { width: 33.33333333333333%; }  .w-2\/6 { @include w-2\/6; }
+@mixin w-3\/6   { width: 50%; }                 .w-3\/6 { @include w-3\/6; }
+@mixin w-4\/6   { width: 66.66666666666666%; }  .w-4\/6 { @include w-4\/6; }
+@mixin w-5\/6   { width: 83.33333333333334%; }  .w-5\/6 { @include w-5\/6; }
+@mixin w-full   { width: 100%; }                .w-full { @include w-full; }
+@mixin w-0\.5   { width: 0.125rem; /* 2px */ }  .w-0\.5 { @include w-0\.5; }
+@mixin w-1      { width: 0.25rem; /* 4px */ }   .w-1 { @include w-1; }
+@mixin w-1\.5   { width: 0.375rem; /* 6px */ }  .w-1\.5 { @include w-1\.5; }
+@mixin w-2      { width: 0.5rem; /* 8px */ }    .w-2 { @include w-2; }
+@mixin w-2\.5   { width: 0.625rem; /* 10px */ } .w-2\.5 { @include w-2\.5; }
+@mixin w-3      { width: 0.75rem; /* 12px */ }  .w-3 { @include w-3; }
+@mixin w-3\.5   { width: 0.875rem; /* 14px */ } .w-3\.5 { @include w-3\.5; }
+@mixin w-4      { width: 1rem; /* 16px */ }     .w-4 { @include w-4; }
+@mixin w-5      { width: 1.25rem; /* 20px */ }  .w-5 { @include w-5; }
+@mixin w-6      { width: 1.5rem; /* 24px */ }   .w-6 { @include w-6; }
+@mixin w-7      { width: 1.75rem; /* 28px */ }  .w-7 { @include w-7; }
+@mixin w-8      { width: 2rem; /* 32px */ }     .w-8 { @include w-8; }
+@mixin w-9      { width: 2.25rem; /* 36px */ }  .w-9 { @include w-9; }
+@mixin w-10     { width: 2.5rem; /* 40px */ }   .w-10 { @include w-10; }
+@mixin w-11     { width: 2.75rem; /* 44px */ }  .w-11 { @include w-11; }
+@mixin w-12     { width: 3rem; /* 48px */ }     .w-12 { @include w-12; }
+@mixin w-14     { width: 3.5rem; /* 56px */ }   .w-14 { @include w-14; }
+@mixin w-16     { width: 4rem; /* 64px */ }     .w-16 { @include w-16; }
+@mixin w-20     { width: 5rem; /* 80px */ }     .w-20 { @include w-20; }
+@mixin w-24     { width: 6rem; /* 96px */ }     .w-24 { @include w-24; }
+@mixin w-28     { width: 7rem; /* 112px */ }    .w-28 { @include w-28; }
+@mixin w-32     { width: 8rem; /* 128px */ }    .w-32 { @include w-32; }
+@mixin w-36     { width: 9rem; /* 144px */ }    .w-36 { @include w-36; }
+@mixin w-40     { width: 10rem; /* 160px */ }   .w-40 { @include w-40; }
+@mixin w-44     { width: 11rem; /* 176px */ }   .w-44 { @include w-44; }
+@mixin w-48     { width: 12rem; /* 192px */ }   .w-48 { @include w-48; }
+@mixin w-52     { width: 13rem; /* 208px */ }   .w-52 { @include w-52; }
+@mixin w-56     { width: 14rem; /* 224px */ }   .w-56 { @include w-56; }
+@mixin w-60     { width: 15rem; /* 240px */ }   .w-60 { @include w-60; }
+@mixin w-64     { width: 16rem; /* 256px */ }   .w-64 { @include w-64; }
+@mixin w-72     { width: 18rem; /* 288px */ }   .w-72 { @include w-72; }
+@mixin w-80     { width: 20rem; /* 320px */ }   .w-80 { @include w-80; }
+@mixin w-96     { width: 24rem; /* 384px */ }   .w-96 { @include w-96; }

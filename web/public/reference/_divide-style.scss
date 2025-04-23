@@ -1,0 +1,5 @@
+@mixin divide-solid  { > *:not(:first-child) { border-style: solid; } }  .divide-solid { @include divide-solid; }
+@mixin divide-dashed { > *:not(:first-child) { border-style: dashed; } } .divide-dashed { @include divide-dashed; }
+@mixin divide-dotted { > *:not(:first-child) { border-style: dotted; } } .divide-dotted { @include divide-dotted; }
+@mixin divide-double { > *:not(:first-child) { border-style: double; } } .divide-double { @include divide-double; }
+@mixin divide-none   { > *:not(:first-child) { border-style: none; } }   .divide-none { @include divide-none; }

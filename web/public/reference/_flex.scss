@@ -1,0 +1,4 @@
+@mixin flex-1       { flex: 1 1 0%; }   .flex-1 { @include flex-1; }
+@mixin flex-auto    { flex: 1 1 auto; } .flex-auto { @include flex-auto; }
+@mixin flex-initial { flex: 0 1 auto; } .flex-initial { @include flex-initial; }
+@mixin flex-none    { flex: none; }     .flex-none { @include flex-none; }

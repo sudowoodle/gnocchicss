@@ -1,0 +1,6 @@
+@mixin border-solid  { border-style: solid; }  .border-solid { @include border-solid; }
+@mixin border-dashed { border-style: dashed; } .border-dashed { @include border-dashed; }
+@mixin border-dotted { border-style: dotted; } .border-dotted { @include border-dotted; }
+@mixin border-double { border-style: double; } .border-double { @include border-double; }
+@mixin border-hidden { border-style: hidden; } .border-hidden { @include border-hidden; }
+@mixin border-none   { border-style: none; }   .border-none { @include border-none; }

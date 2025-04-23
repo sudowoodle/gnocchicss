@@ -1,0 +1,17 @@
+@mixin justify-normal        { justify-content: normal; }        .justify-normal { @include justify-normal; }
+@mixin justify-start         { justify-content: flex-start; }    .justify-start { @include justify-start; }
+@mixin justify-end           { justify-content: flex-end; }      .justify-end { @include justify-end; }
+@mixin justify-center        { justify-content: center; }        .justify-center { @include justify-center; }
+@mixin justify-between       { justify-content: space-between; } .justify-between { @include justify-between; }
+@mixin justify-around        { justify-content: space-around; }  .justify-around { @include justify-around; }
+@mixin justify-evenly        { justify-content: space-evenly; }  .justify-evenly { @include justify-evenly; }
+@mixin justify-stretch       { justify-content: stretch; }       .justify-stretch { @include justify-stretch; }
+@mixin justify-items-start   { justify-items: start; }           .justify-items-start { @include justify-items-start; }
+@mixin justify-items-end     { justify-items: end; }             .justify-items-end { @include justify-items-end; }
+@mixin justify-items-center  { justify-items: center; }          .justify-items-center { @include justify-items-center; }
+@mixin justify-items-stretch { justify-items: stretch; }         .justify-items-stretch { @include justify-items-stretch; }
+@mixin justify-self-auto     { justify-self: auto; }             .justify-self-auto { @include justify-self-auto; }
+@mixin justify-self-start    { justify-self: start; }            .justify-self-start { @include justify-self-start; }
+@mixin justify-self-end      { justify-self: end; }              .justify-self-end { @include justify-self-end; }
+@mixin justify-self-center   { justify-self: center; }           .justify-self-center { @include justify-self-center; }
+@mixin justify-self-stretch  { justify-self: stretch; }          .justify-self-stretch { @include justify-self-stretch; }

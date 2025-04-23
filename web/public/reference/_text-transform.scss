@@ -1,0 +1,4 @@
+@mixin uppercase   { text-transform: uppercase; }  .uppercase { @include uppercase; }
+@mixin lowercase   { text-transform: lowercase; }  .lowercase { @include lowercase; }
+@mixin capitalize  { text-transform: capitalize; } .capitalize { @include capitalize; }
+@mixin normal-case { text-transform: none; }       .normal-case { @include normal-case; }

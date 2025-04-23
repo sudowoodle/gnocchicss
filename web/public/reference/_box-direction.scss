@@ -1,0 +1,2 @@
+@mixin box-decoration-clone { box-decoration-break: clone; } .box-decoration-clone { @include box-decoration-clone; }
+@mixin box-decoration-slice { box-decoration-break: slice; } .box-decoration-slice { @include box-decoration-slice; }

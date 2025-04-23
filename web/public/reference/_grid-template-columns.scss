@@ -1,0 +1,129 @@
+@mixin grid-cols-1         { grid-template-columns: repeat(1, minmax(0, 1fr)); }  .grid-cols-1 { @include grid-cols-1; }
+@mixin grid-cols-2         { grid-template-columns: repeat(2, minmax(0, 1fr)); }  .grid-cols-2 { @include grid-cols-2; }
+@mixin grid-cols-3         { grid-template-columns: repeat(3, minmax(0, 1fr)); }  .grid-cols-3 { @include grid-cols-3; }
+@mixin grid-cols-4         { grid-template-columns: repeat(4, minmax(0, 1fr)); }  .grid-cols-4 { @include grid-cols-4; }
+@mixin grid-cols-5         { grid-template-columns: repeat(5, minmax(0, 1fr)); }  .grid-cols-5 { @include grid-cols-5; }
+@mixin grid-cols-6         { grid-template-columns: repeat(6, minmax(0, 1fr)); }  .grid-cols-6 { @include grid-cols-6; }
+@mixin grid-cols-7         { grid-template-columns: repeat(7, minmax(0, 1fr)); }  .grid-cols-7 { @include grid-cols-7; }
+@mixin grid-cols-8         { grid-template-columns: repeat(8, minmax(0, 1fr)); }  .grid-cols-8 { @include grid-cols-8; }
+@mixin grid-cols-9         { grid-template-columns: repeat(9, minmax(0, 1fr)); }  .grid-cols-9 { @include grid-cols-9; }
+@mixin grid-cols-10        { grid-template-columns: repeat(10, minmax(0, 1fr)); } .grid-cols-10 { @include grid-cols-10; }
+@mixin grid-cols-11        { grid-template-columns: repeat(11, minmax(0, 1fr)); } .grid-cols-11 { @include grid-cols-11; }
+@mixin grid-cols-12        { grid-template-columns: repeat(12, minmax(0, 1fr)); } .grid-cols-12 { @include grid-cols-12; }
+@mixin grid-cols-none      { grid-template-columns: none; }                       .grid-cols-none { @include grid-cols-none; }
+@mixin grid-cols-subgrid   { grid-template-columns: subgrid; }                    .grid-cols-subgrid { @include grid-cols-subgrid; }
+@mixin col-auto            { grid-column: auto; }                                 .col-auto { @include col-auto; }
+@mixin col-span-1          { grid-column: span 1 / span 1; }                      .col-span-1 { @include col-span-1; }
+@mixin col-span-2          { grid-column: span 2 / span 2; }                      .col-span-2 { @include col-span-2; }
+@mixin col-span-3          { grid-column: span 3 / span 3; }                      .col-span-3 { @include col-span-3; }
+@mixin col-span-4          { grid-column: span 4 / span 4; }                      .col-span-4 { @include col-span-4; }
+@mixin col-span-5          { grid-column: span 5 / span 5; }                      .col-span-5 { @include col-span-5; }
+@mixin col-span-6          { grid-column: span 6 / span 6; }                      .col-span-6 { @include col-span-6; }
+@mixin col-span-7          { grid-column: span 7 / span 7; }                      .col-span-7 { @include col-span-7; }
+@mixin col-span-8          { grid-column: span 8 / span 8; }                      .col-span-8 { @include col-span-8; }
+@mixin col-span-9          { grid-column: span 9 / span 9; }                      .col-span-9 { @include col-span-9; }
+@mixin col-span-10         { grid-column: span 10 / span 10; }                    .col-span-10 { @include col-span-10; }
+@mixin col-span-11         { grid-column: span 11 / span 11; }                    .col-span-11 { @include col-span-11; }
+@mixin col-span-12         { grid-column: span 12 / span 12; }                    .col-span-12 { @include col-span-12; }
+@mixin col-span-full       { grid-column: 1 / -1; }                               .col-span-full { @include col-span-full; }
+@mixin col-start-1         { grid-column-start: 1; }                              .col-start-1 { @include col-start-1; }
+@mixin col-start-2         { grid-column-start: 2; }                              .col-start-2 { @include col-start-2; }
+@mixin col-start-3         { grid-column-start: 3; }                              .col-start-3 { @include col-start-3; }
+@mixin col-start-4         { grid-column-start: 4; }                              .col-start-4 { @include col-start-4; }
+@mixin col-start-5         { grid-column-start: 5; }                              .col-start-5 { @include col-start-5; }
+@mixin col-start-6         { grid-column-start: 6; }                              .col-start-6 { @include col-start-6; }
+@mixin col-start-7         { grid-column-start: 7; }                              .col-start-7 { @include col-start-7; }
+@mixin col-start-8         { grid-column-start: 8; }                              .col-start-8 { @include col-start-8; }
+@mixin col-start-9         { grid-column-start: 9; }                              .col-start-9 { @include col-start-9; }
+@mixin col-start-10        { grid-column-start: 10; }                             .col-start-10 { @include col-start-10; }
+@mixin col-start-11        { grid-column-start: 11; }                             .col-start-11 { @include col-start-11; }
+@mixin col-start-12        { grid-column-start: 12; }                             .col-start-12 { @include col-start-12; }
+@mixin col-start-13        { grid-column-start: 13; }                             .col-start-13 { @include col-start-13; }
+@mixin col-start-auto      { grid-column-start: auto; }                           .col-start-auto { @include col-start-auto; }
+@mixin col-end-1           { grid-column-end: 1; }                                .col-end-1 { @include col-end-1; }
+@mixin col-end-2           { grid-column-end: 2; }                                .col-end-2 { @include col-end-2; }
+@mixin col-end-3           { grid-column-end: 3; }                                .col-end-3 { @include col-end-3; }
+@mixin col-end-4           { grid-column-end: 4; }                                .col-end-4 { @include col-end-4; }
+@mixin col-end-5           { grid-column-end: 5; }                                .col-end-5 { @include col-end-5; }
+@mixin col-end-6           { grid-column-end: 6; }                                .col-end-6 { @include col-end-6; }
+@mixin col-end-7           { grid-column-end: 7; }                                .col-end-7 { @include col-end-7; }
+@mixin col-end-8           { grid-column-end: 8; }                                .col-end-8 { @include col-end-8; }
+@mixin col-end-9           { grid-column-end: 9; }                                .col-end-9 { @include col-end-9; }
+@mixin col-end-10          { grid-column-end: 10; }                               .col-end-10 { @include col-end-10; }
+@mixin col-end-11          { grid-column-end: 11; }                               .col-end-11 { @include col-end-11; }
+@mixin col-end-12          { grid-column-end: 12; }                               .col-end-12 { @include col-end-12; }
+@mixin col-end-13          { grid-column-end: 13; }                               .col-end-13 { @include col-end-13; }
+@mixin col-end-auto        { grid-column-end: auto; }                             .col-end-auto { @include col-end-auto; }
+@mixin grid-rows-1         { grid-template-rows: repeat(1, minmax(0, 1fr)); }     .grid-rows-1 { @include grid-rows-1; }
+@mixin grid-rows-2         { grid-template-rows: repeat(2, minmax(0, 1fr)); }     .grid-rows-2 { @include grid-rows-2; }
+@mixin grid-rows-3         { grid-template-rows: repeat(3, minmax(0, 1fr)); }     .grid-rows-3 { @include grid-rows-3; }
+@mixin grid-rows-4         { grid-template-rows: repeat(4, minmax(0, 1fr)); }     .grid-rows-4 { @include grid-rows-4; }
+@mixin grid-rows-5         { grid-template-rows: repeat(5, minmax(0, 1fr)); }     .grid-rows-5 { @include grid-rows-5; }
+@mixin grid-rows-6         { grid-template-rows: repeat(6, minmax(0, 1fr)); }     .grid-rows-6 { @include grid-rows-6; }
+@mixin grid-rows-7         { grid-template-rows: repeat(7, minmax(0, 1fr)); }     .grid-rows-7 { @include grid-rows-7; }
+@mixin grid-rows-8         { grid-template-rows: repeat(8, minmax(0, 1fr)); }     .grid-rows-8 { @include grid-rows-8; }
+@mixin grid-rows-9         { grid-template-rows: repeat(9, minmax(0, 1fr)); }     .grid-rows-9 { @include grid-rows-9; }
+@mixin grid-rows-10        { grid-template-rows: repeat(10, minmax(0, 1fr)); }    .grid-rows-10 { @include grid-rows-10; }
+@mixin grid-rows-11        { grid-template-rows: repeat(11, minmax(0, 1fr)); }    .grid-rows-11 { @include grid-rows-11; }
+@mixin grid-rows-12        { grid-template-rows: repeat(12, minmax(0, 1fr)); }    .grid-rows-12 { @include grid-rows-12; }
+@mixin grid-rows-none      { grid-template-rows: none; }                          .grid-rows-none { @include grid-rows-none; }
+@mixin grid-rows-subgrid   { grid-template-rows: subgrid; }                       .grid-rows-subgrid { @include grid-rows-subgrid; }
+@mixin grid-rows-11        { grid-template-rows: repeat(11, minmax(0, 1fr)); }    .grid-rows-11 { @include grid-rows-11; }
+@mixin grid-rows-12        { grid-template-rows: repeat(12, minmax(0, 1fr)); }    .grid-rows-12 { @include grid-rows-12; }
+@mixin grid-rows-none      { grid-template-rows: none; }                          .grid-rows-none { @include grid-rows-none; }
+@mixin grid-rows-subgrid   { grid-template-rows: subgrid; }                       .grid-rows-subgrid { @include grid-rows-subgrid; }
+@mixin row-auto            { grid-row: auto; }                                    .row-auto { @include row-auto; }
+@mixin row-span-1          { grid-row: span 1 / span 1; }                         .row-span-1 { @include row-span-1; }
+@mixin row-span-2          { grid-row: span 2 / span 2; }                         .row-span-2 { @include row-span-2; }
+@mixin row-span-3          { grid-row: span 3 / span 3; }                         .row-span-3 { @include row-span-3; }
+@mixin row-span-4          { grid-row: span 4 / span 4; }                         .row-span-4 { @include row-span-4; }
+@mixin row-span-5          { grid-row: span 5 / span 5; }                         .row-span-5 { @include row-span-5; }
+@mixin row-span-6          { grid-row: span 6 / span 6; }                         .row-span-6 { @include row-span-6; }
+@mixin row-span-7          { grid-row: span 7 / span 7; }                         .row-span-7 { @include row-span-7; }
+@mixin row-span-8          { grid-row: span 8 / span 8; }                         .row-span-8 { @include row-span-8; }
+@mixin row-span-9          { grid-row: span 9 / span 9; }                         .row-span-9 { @include row-span-9; }
+@mixin row-span-10         { grid-row: span 10 / span 10; }                       .row-span-10 { @include row-span-10; }
+@mixin row-span-11         { grid-row: span 11 / span 11; }                       .row-span-11 { @include row-span-11; }
+@mixin row-span-12         { grid-row: span 12 / span 12; }                       .row-span-12 { @include row-span-12; }
+@mixin row-span-full       { grid-row: 1 / -1; }                                  .row-span-full { @include row-span-full; }
+@mixin row-start-1         { grid-row-start: 1; }                                 .row-start-1 { @include row-start-1; }
+@mixin row-start-2         { grid-row-start: 2; }                                 .row-start-2 { @include row-start-2; }
+@mixin row-start-3         { grid-row-start: 3; }                                 .row-start-3 { @include row-start-3; }
+@mixin row-start-4         { grid-row-start: 4; }                                 .row-start-4 { @include row-start-4; }
+@mixin row-start-5         { grid-row-start: 5; }                                 .row-start-5 { @include row-start-5; }
+@mixin row-start-6         { grid-row-start: 6; }                                 .row-start-6 { @include row-start-6; }
+@mixin row-start-7         { grid-row-start: 7; }                                 .row-start-7 { @include row-start-7; }
+@mixin row-start-8         { grid-row-start: 8; }                                 .row-start-8 { @include row-start-8; }
+@mixin row-start-9         { grid-row-start: 9; }                                 .row-start-9 { @include row-start-9; }
+@mixin row-start-10        { grid-row-start: 10; }                                .row-start-10 { @include row-start-10; }
+@mixin row-start-11        { grid-row-start: 11; }                                .row-start-11 { @include row-start-11; }
+@mixin row-start-12        { grid-row-start: 12; }                                .row-start-12 { @include row-start-12; }
+@mixin row-start-13        { grid-row-start: 13; }                                .row-start-13 { @include row-start-13; }
+@mixin row-start-auto      { grid-row-start: auto; }                              .row-start-auto { @include row-start-auto; }
+@mixin row-end-1           { grid-row-end: 1; }                                   .row-end-1 { @include row-end-1; }
+@mixin row-end-2           { grid-row-end: 2; }                                   .row-end-2 { @include row-end-2; }
+@mixin row-end-3           { grid-row-end: 3; }                                   .row-end-3 { @include row-end-3; }
+@mixin row-end-4           { grid-row-end: 4; }                                   .row-end-4 { @include row-end-4; }
+@mixin row-end-5           { grid-row-end: 5; }                                   .row-end-5 { @include row-end-5; }
+@mixin row-end-6           { grid-row-end: 6; }                                   .row-end-6 { @include row-end-6; }
+@mixin row-end-7           { grid-row-end: 7; }                                   .row-end-7 { @include row-end-7; }
+@mixin row-end-8           { grid-row-end: 8; }                                   .row-end-8 { @include row-end-8; }
+@mixin row-end-9           { grid-row-end: 9; }                                   .row-end-9 { @include row-end-9; }
+@mixin row-end-10          { grid-row-end: 10; }                                  .row-end-10 { @include row-end-10; }
+@mixin row-end-11          { grid-row-end: 11; }                                  .row-end-11 { @include row-end-11; }
+@mixin row-end-12          { grid-row-end: 12; }                                  .row-end-12 { @include row-end-12; }
+@mixin row-end-13          { grid-row-end: 13; }                                  .row-end-13 { @include row-end-13; }
+@mixin row-end-auto        { grid-row-end: auto; }                                .row-end-auto { @include row-end-auto; }
+@mixin grid-flow-row       { grid-auto-flow: row; }                               .grid-flow-row { @include grid-flow-row; }
+@mixin grid-flow-col       { grid-auto-flow: column; }                            .grid-flow-col { @include grid-flow-col; }
+@mixin grid-flow-dense     { grid-auto-flow: dense; }                             .grid-flow-dense { @include grid-flow-dense; }
+@mixin grid-flow-row-dense { grid-auto-flow: row dense; }                         .grid-flow-row-dense { @include grid-flow-row-dense; }
+@mixin grid-flow-col-dense { grid-auto-flow: column dense; }                      .grid-flow-col-dense { @include grid-flow-col-dense; }
+@mixin auto-cols-auto      { grid-auto-columns: auto; }                           .auto-cols-auto { @include auto-cols-auto; }
+@mixin auto-cols-min       { grid-auto-columns: min-content; }                    .auto-cols-min { @include auto-cols-min; }
+@mixin auto-cols-max       { grid-auto-columns: max-content; }                    .auto-cols-max { @include auto-cols-max; }
+@mixin auto-cols-fr        { grid-auto-columns: minmax(0, 1fr); }                 .auto-cols-fr { @include auto-cols-fr; }
+@mixin auto-rows-auto      { grid-auto-rows: auto; }                              .auto-rows-auto { @include auto-rows-auto; }
+@mixin auto-rows-min       { grid-auto-rows: min-content; }                       .auto-rows-min { @include auto-rows-min; }
+@mixin auto-rows-max       { grid-auto-rows: max-content; }                       .auto-rows-max { @include auto-rows-max; }
+@mixin auto-rows-fr        { grid-auto-rows: minmax(0, 1fr); }                    .auto-rows-fr { @include auto-rows-fr; }

@@ -1,0 +1,315 @@
+@mixin p-0     { padding: 0; }                                                 .p-0 { @include p-0; }
+@mixin p-px    { padding: 1px; }                                               .p-px { @include p-px; }
+@mixin p-0\.5  { padding: 0.125rem; /* 2px */ }                                .p-0\.5 { @include p-0\.5; }
+@mixin p-1     { padding: 0.25rem; /* 4px */ }                                 .p-1 { @include p-1; }
+@mixin p-1\.5  { padding: 0.375rem; /* 6px */ }                                .p-1\.5 { @include p-1\.5; }
+@mixin p-2     { padding: 0.5rem; /* 8px */ }                                  .p-2 { @include p-2; }
+@mixin p-2\.5  { padding: 0.625rem; /* 10px */ }                               .p-2\.5 { @include p-2\.5; }
+@mixin p-3     { padding: 0.75rem; /* 12px */ }                                .p-3 { @include p-3; }
+@mixin p-3\.5  { padding: 0.875rem; /* 14px */ }                               .p-3\.5 { @include p-3\.5; }
+@mixin p-4     { padding: 1rem; /* 16px */ }                                   .p-4 { @include p-4; }
+@mixin p-5     { padding: 1.25rem; /* 20px */ }                                .p-5 { @include p-5; }
+@mixin p-6     { padding: 1.5rem; /* 24px */ }                                 .p-6 { @include p-6; }
+@mixin p-7     { padding: 1.75rem; /* 28px */ }                                .p-7 { @include p-7; }
+@mixin p-8     { padding: 2rem; /* 32px */ }                                   .p-8 { @include p-8; }
+@mixin p-9     { padding: 2.25rem; /* 36px */ }                                .p-9 { @include p-9; }
+@mixin p-10    { padding: 2.5rem; /* 40px */ }                                 .p-10 { @include p-10; }
+@mixin p-11    { padding: 2.75rem; /* 44px */ }                                .p-11 { @include p-11; }
+@mixin p-12    { padding: 3rem; /* 48px */ }                                   .p-12 { @include p-12; }
+@mixin p-14    { padding: 3.5rem; /* 56px */ }                                 .p-14 { @include p-14; }
+@mixin p-16    { padding: 4rem; /* 64px */ }                                   .p-16 { @include p-16; }
+@mixin p-20    { padding: 5rem; /* 80px */ }                                   .p-20 { @include p-20; }
+@mixin p-24    { padding: 6rem; /* 96px */ }                                   .p-24 { @include p-24; }
+@mixin p-28    { padding: 7rem; /* 112px */ }                                  .p-28 { @include p-28; }
+@mixin p-32    { padding: 8rem; /* 128px */ }                                  .p-32 { @include p-32; }
+@mixin p-36    { padding: 9rem; /* 144px */ }                                  .p-36 { @include p-36; }
+@mixin p-40    { padding: 10rem; /* 160px */ }                                 .p-40 { @include p-40; }
+@mixin p-44    { padding: 11rem; /* 176px */ }                                 .p-44 { @include p-44; }
+@mixin p-48    { padding: 12rem; /* 192px */ }                                 .p-48 { @include p-48; }
+@mixin p-52    { padding: 13rem; /* 208px */ }                                 .p-52 { @include p-52; }
+@mixin p-56    { padding: 14rem; /* 224px */ }                                 .p-56 { @include p-56; }
+@mixin p-60    { padding: 15rem; /* 240px */ }                                 .p-60 { @include p-60; }
+@mixin p-64    { padding: 16rem; /* 256px */ }                                 .p-64 { @include p-64; }
+@mixin p-72    { padding: 18rem; /* 288px */ }                                 .p-72 { @include p-72; }
+@mixin p-80    { padding: 20rem; /* 320px */ }                                 .p-80 { @include p-80; }
+@mixin p-96    { padding: 24rem; /* 384px */ }                                 .p-96 { @include p-96; }
+@mixin px-0    { padding-left: 0; padding-right: 0; }                          .px-0 { @include px-0; }
+@mixin px-px   { padding-left: 1px; padding-right: 1px; }                      .px-px { @include px-px; }
+@mixin px-0\.5 { padding-left: 0.125rem; padding-right: 0.125rem; /* 2px */ }  .px-0\.5 { @include px-0\.5; }
+@mixin px-1    { padding-left: 0.25rem; padding-right: 0.25rem; /* 4px */ }    .px-1 { @include px-1; }
+@mixin px-1\.5 { padding-left: 0.375rem; padding-right: 0.375rem; /* 6px */ }  .px-1\.5 { @include px-1\.5; }
+@mixin px-2    { padding-left: 0.5rem; padding-right: 0.5rem; /* 8px */ }      .px-2 { @include px-2; }
+@mixin px-2\.5 { padding-left: 0.625rem; padding-right: 0.625rem; /* 10px */ } .px-2\.5 { @include px-2\.5; }
+@mixin px-3    { padding-left: 0.75rem; padding-right: 0.75rem; /* 12px */ }   .px-3 { @include px-3; }
+@mixin px-3\.5 { padding-left: 0.875rem; padding-right: 0.875rem; /* 14px */ } .px-3\.5 { @include px-3\.5; }
+@mixin px-4    { padding-left: 1rem; padding-right: 1rem; /* 16px */ }         .px-4 { @include px-4; }
+@mixin px-5    { padding-left: 1.25rem; padding-right: 1.25rem; /* 20px */ }   .px-5 { @include px-5; }
+@mixin px-6    { padding-left: 1.5rem; padding-right: 1.5rem; /* 24px */ }     .px-6 { @include px-6; }
+@mixin px-7    { padding-left: 1.75rem; padding-right: 1.75rem; /* 28px */ }   .px-7 { @include px-7; }
+@mixin px-8    { padding-left: 2rem; padding-right: 2rem; /* 32px */ }         .px-8 { @include px-8; }
+@mixin px-9    { padding-left: 2.25rem; padding-right: 2.25rem; /* 36px */ }   .px-9 { @include px-9; }
+@mixin px-10   { padding-left: 2.5rem; padding-right: 2.5rem; /* 40px */ }     .px-10 { @include px-10; }
+@mixin px-11   { padding-left: 2.75rem; padding-right: 2.75rem; /* 44px */ }   .px-11 { @include px-11; }
+@mixin px-12   { padding-left: 3rem; padding-right: 3rem; /* 48px */ }         .px-12 { @include px-12; }
+@mixin px-14   { padding-left: 3.5rem; padding-right: 3.5rem; /* 56px */ }     .px-14 { @include px-14; }
+@mixin px-16   { padding-left: 4rem; padding-right: 4rem; /* 64px */ }         .px-16 { @include px-16; }
+@mixin px-20   { padding-left: 5rem; padding-right: 5rem; /* 80px */ }         .px-20 { @include px-20; }
+@mixin px-24   { padding-left: 6rem; padding-right: 6rem; /* 96px */ }         .px-24 { @include px-24; }
+@mixin px-28   { padding-left: 7rem; padding-right: 7rem; /* 112px */ }        .px-28 { @include px-28; }
+@mixin px-32   { padding-left: 8rem; padding-right: 8rem; /* 128px */ }        .px-32 { @include px-32; }
+@mixin px-36   { padding-left: 9rem; padding-right: 9rem; /* 144px */ }        .px-36 { @include px-36; }
+@mixin px-40   { padding-left: 10rem; padding-right: 10rem; /* 160px */ }      .px-40 { @include px-40; }
+@mixin px-44   { padding-left: 11rem; padding-right: 11rem; /* 176px */ }      .px-44 { @include px-44; }
+@mixin px-48   { padding-left: 12rem; padding-right: 12rem; /* 192px */ }      .px-48 { @include px-48; }
+@mixin px-52   { padding-left: 13rem; padding-right: 13rem; /* 208px */ }      .px-52 { @include px-52; }
+@mixin px-56   { padding-left: 14rem; padding-right: 14rem; /* 224px */ }      .px-56 { @include px-56; }
+@mixin px-60   { padding-left: 15rem; padding-right: 15rem; /* 240px */ }      .px-60 { @include px-60; }
+@mixin px-64   { padding-left: 16rem; padding-right: 16rem; /* 256px */ }      .px-64 { @include px-64; }
+@mixin px-72   { padding-left: 18rem; padding-right: 18rem; /* 288px */ }      .px-72 { @include px-72; }
+@mixin px-80   { padding-left: 20rem; padding-right: 20rem; /* 320px */ }      .px-80 { @include px-80; }
+@mixin px-96   { padding-left: 24rem; padding-right: 24rem; /* 384px */ }      .px-96 { @include px-96; }
+@mixin py-0    { padding-top: 0; padding-bottom: 0; }                          .py-0 { @include py-0; }
+@mixin py-px   { padding-top: 1px; padding-bottom: 1px; }                      .py-px { @include py-px; }
+@mixin py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; /* 2px */ }  .py-0\.5 { @include py-0\.5; }
+@mixin py-1    { padding-top: 0.25rem; padding-bottom: 0.25rem; /* 4px */ }    .py-1 { @include py-1; }
+@mixin py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; /* 6px */ }  .py-1\.5 { @include py-1\.5; }
+@mixin py-2    { padding-top: 0.5rem; padding-bottom: 0.5rem; /* 8px */ }      .py-2 { @include py-2; }
+@mixin py-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; /* 10px */ } .py-2\.5 { @include py-2\.5; }
+@mixin py-3    { padding-top: 0.75rem; padding-bottom: 0.75rem; /* 12px */ }   .py-3 { @include py-3; }
+@mixin py-3\.5 { padding-top: 0.875rem; padding-bottom: 0.875rem; /* 14px */ } .py-3\.5 { @include py-3\.5; }
+@mixin py-4    { padding-top: 1rem; padding-bottom: 1rem; /* 16px */ }         .py-4 { @include py-4; }
+@mixin py-5    { padding-top: 1.25rem; padding-bottom: 1.25rem; /* 20px */ }   .py-5 { @include py-5; }
+@mixin py-6    { padding-top: 1.5rem; padding-bottom: 1.5rem; /* 24px */ }     .py-6 { @include py-6; }
+@mixin py-7    { padding-top: 1.75rem; padding-bottom: 1.75rem; /* 28px */ }   .py-7 { @include py-7; }
+@mixin py-8    { padding-top: 2rem; padding-bottom: 2rem; /* 32px */ }         .py-8 { @include py-8; }
+@mixin py-9    { padding-top: 2.25rem; padding-bottom: 2.25rem; /* 36px */ }   .py-9 { @include py-9; }
+@mixin py-10   { padding-top: 2.5rem; padding-bottom: 2.5rem; /* 40px */ }     .py-10 { @include py-10; }
+@mixin py-11   { padding-top: 2.75rem; padding-bottom: 2.75rem; /* 44px */ }   .py-11 { @include py-11; }
+@mixin py-12   { padding-top: 3rem; padding-bottom: 3rem; /* 48px */ }         .py-12 { @include py-12; }
+@mixin py-14   { padding-top: 3.5rem; padding-bottom: 3.5rem; /* 56px */ }     .py-14 { @include py-14; }
+@mixin py-16   { padding-top: 4rem; padding-bottom: 4rem; /* 64px */ }         .py-16 { @include py-16; }
+@mixin py-20   { padding-top: 5rem; padding-bottom: 5rem; /* 80px */ }         .py-20 { @include py-20; }
+@mixin py-24   { padding-top: 6rem; padding-bottom: 6rem; /* 96px */ }         .py-24 { @include py-24; }
+@mixin py-28   { padding-top: 7rem; padding-bottom: 7rem; /* 112px */ }        .py-28 { @include py-28; }
+@mixin py-32   { padding-top: 8rem; padding-bottom: 8rem; /* 128px */ }        .py-32 { @include py-32; }
+@mixin py-36   { padding-top: 9rem; padding-bottom: 9rem; /* 144px */ }        .py-36 { @include py-36; }
+@mixin py-40   { padding-top: 10rem; padding-bottom: 10rem; /* 160px */ }      .py-40 { @include py-40; }
+@mixin py-44   { padding-top: 11rem; padding-bottom: 11rem; /* 176px */ }      .py-44 { @include py-44; }
+@mixin py-48   { padding-top: 12rem; padding-bottom: 12rem; /* 192px */ }      .py-48 { @include py-48; }
+@mixin py-52   { padding-top: 13rem; padding-bottom: 13rem; /* 208px */ }      .py-52 { @include py-52; }
+@mixin py-56   { padding-top: 14rem; padding-bottom: 14rem; /* 224px */ }      .py-56 { @include py-56; }
+@mixin py-60   { padding-top: 15rem; padding-bottom: 15rem; /* 240px */ }      .py-60 { @include py-60; }
+@mixin py-64   { padding-top: 16rem; padding-bottom: 16rem; /* 256px */ }      .py-64 { @include py-64; }
+@mixin py-72   { padding-top: 18rem; padding-bottom: 18rem; /* 288px */ }      .py-72 { @include py-72; }
+@mixin py-80   { padding-top: 20rem; padding-bottom: 20rem; /* 320px */ }      .py-80 { @include py-80; }
+@mixin py-96   { padding-top: 24rem; padding-bottom: 24rem; /* 384px */ }      .py-96 { @include py-96; }
+@mixin pt-0    { padding-top: 0; }                                             .pt-0 { @include pt-0; }
+@mixin pt-px   { padding-top: 1px; }                                           .pt-px { @include pt-px; }
+@mixin pt-0\.5 { padding-top: 0.125rem; /* 2px */ }                            .pt-0\.5 { @include pt-0\.5; }
+@mixin pt-1    { padding-top: 0.25rem; /* 4px */ }                             .pt-1 { @include pt-1; }
+@mixin pt-1\.5 { padding-top: 0.375rem; /* 6px */ }                            .pt-1\.5 { @include pt-1\.5; }
+@mixin pt-2    { padding-top: 0.5rem; /* 8px */ }                              .pt-2 { @include pt-2; }
+@mixin pt-2\.5 { padding-top: 0.625rem; /* 10px */ }                           .pt-2\.5 { @include pt-2\.5; }
+@mixin pt-3    { padding-top: 0.75rem; /* 12px */ }                            .pt-3 { @include pt-3; }
+@mixin pt-3\.5 { padding-top: 0.875rem; /* 14px */ }                           .pt-3\.5 { @include pt-3\.5; }
+@mixin pt-4    { padding-top: 1rem; /* 16px */ }                               .pt-4 { @include pt-4; }
+@mixin pt-5    { padding-top: 1.25rem; /* 20px */ }                            .pt-5 { @include pt-5; }
+@mixin pt-6    { padding-top: 1.5rem; /* 24px */ }                             .pt-6 { @include pt-6; }
+@mixin pt-7    { padding-top: 1.75rem; /* 28px */ }                            .pt-7 { @include pt-7; }
+@mixin pt-8    { padding-top: 2rem; /* 32px */ }                               .pt-8 { @include pt-8; }
+@mixin pt-9    { padding-top: 2.25rem; /* 36px */ }                            .pt-9 { @include pt-9; }
+@mixin pt-10   { padding-top: 2.5rem; /* 40px */ }                             .pt-10 { @include pt-10; }
+@mixin pt-11   { padding-top: 2.75rem; /* 44px */ }                            .pt-11 { @include pt-11; }
+@mixin pt-12   { padding-top: 3rem; /* 48px */ }                               .pt-12 { @include pt-12; }
+@mixin pt-14   { padding-top: 3.5rem; /* 56px */ }                             .pt-14 { @include pt-14; }
+@mixin pt-16   { padding-top: 4rem; /* 64px */ }                               .pt-16 { @include pt-16; }
+@mixin pt-20   { padding-top: 5rem; /* 80px */ }                               .pt-20 { @include pt-20; }
+@mixin pt-24   { padding-top: 6rem; /* 96px */ }                               .pt-24 { @include pt-24; }
+@mixin pt-28   { padding-top: 7rem; /* 112px */ }                              .pt-28 { @include pt-28; }
+@mixin pt-32   { padding-top: 8rem; /* 128px */ }                              .pt-32 { @include pt-32; }
+@mixin pt-36   { padding-top: 9rem; /* 144px */ }                              .pt-36 { @include pt-36; }
+@mixin pt-40   { padding-top: 10rem; /* 160px */ }                             .pt-40 { @include pt-40; }
+@mixin pt-44   { padding-top: 11rem; /* 176px */ }                             .pt-44 { @include pt-44; }
+@mixin pt-48   { padding-top: 12rem; /* 192px */ }                             .pt-48 { @include pt-48; }
+@mixin pt-52   { padding-top: 13rem; /* 208px */ }                             .pt-52 { @include pt-52; }
+@mixin pt-56   { padding-top: 14rem; /* 224px */ }                             .pt-56 { @include pt-56; }
+@mixin pt-60   { padding-top: 15rem; /* 240px */ }                             .pt-60 { @include pt-60; }
+@mixin pt-64   { padding-top: 16rem; /* 256px */ }                             .pt-64 { @include pt-64; }
+@mixin pt-72   { padding-top: 18rem; /* 288px */ }                             .pt-72 { @include pt-72; }
+@mixin pt-80   { padding-top: 20rem; /* 320px */ }                             .pt-80 { @include pt-80; }
+@mixin pt-96   { padding-top: 24rem; /* 384px */ }                             .pt-96 { @include pt-96; }
+@mixin pb-0    { padding-bottom: 0; }                                          .pb-0 { @include pb-0; }
+@mixin pb-px   { padding-bottom: 1px; }                                        .pb-px { @include pb-px; }
+@mixin pb-0\.5 { padding-bottom: 0.125rem; /* 2px */ }                         .pb-0\.5 { @include pb-0\.5; }
+@mixin pb-1    { padding-bottom: 0.25rem; /* 4px */ }                          .pb-1 { @include pb-1; }
+@mixin pb-1\.5 { padding-bottom: 0.375rem; /* 6px */ }                         .pb-1\.5 { @include pb-1\.5; }
+@mixin pb-2    { padding-bottom: 0.5rem; /* 8px */ }                           .pb-2 { @include pb-2; }
+@mixin pb-2\.5 { padding-bottom: 0.625rem; /* 10px */ }                        .pb-2\.5 { @include pb-2\.5; }
+@mixin pb-3    { padding-bottom: 0.75rem; /* 12px */ }                         .pb-3 { @include pb-3; }
+@mixin pb-3\.5 { padding-bottom: 0.875rem; /* 14px */ }                        .pb-3\.5 { @include pb-3\.5; }
+@mixin pb-4    { padding-bottom: 1rem; /* 16px */ }                            .pb-4 { @include pb-4; }
+@mixin pb-5    { padding-bottom: 1.25rem; /* 20px */ }                         .pb-5 { @include pb-5; }
+@mixin pb-6    { padding-bottom: 1.5rem; /* 24px */ }                          .pb-6 { @include pb-6; }
+@mixin pb-7    { padding-bottom: 1.75rem; /* 28px */ }                         .pb-7 { @include pb-7; }
+@mixin pb-8    { padding-bottom: 2rem; /* 32px */ }                            .pb-8 { @include pb-8; }
+@mixin pb-9    { padding-bottom: 2.25rem; /* 36px */ }                         .pb-9 { @include pb-9; }
+@mixin pb-10   { padding-bottom: 2.5rem; /* 40px */ }                          .pb-10 { @include pb-10; }
+@mixin pb-11   { padding-bottom: 2.75rem; /* 44px */ }                         .pb-11 { @include pb-11; }
+@mixin pb-12   { padding-bottom: 3rem; /* 48px */ }                            .pb-12 { @include pb-12; }
+@mixin pb-14   { padding-bottom: 3.5rem; /* 56px */ }                          .pb-14 { @include pb-14; }
+@mixin pb-16   { padding-bottom: 4rem; /* 64px */ }                            .pb-16 { @include pb-16; }
+@mixin pb-20   { padding-bottom: 5rem; /* 80px */ }                            .pb-20 { @include pb-20; }
+@mixin pb-24   { padding-bottom: 6rem; /* 96px */ }                            .pb-24 { @include pb-24; }
+@mixin pb-28   { padding-bottom: 7rem; /* 112px */ }                           .pb-28 { @include pb-28; }
+@mixin pb-32   { padding-bottom: 8rem; /* 128px */ }                           .pb-32 { @include pb-32; }
+@mixin pb-36   { padding-bottom: 9rem; /* 144px */ }                           .pb-36 { @include pb-36; }
+@mixin pb-40   { padding-bottom: 10rem; /* 160px */ }                          .pb-40 { @include pb-40; }
+@mixin pb-44   { padding-bottom: 11rem; /* 176px */ }                          .pb-44 { @include pb-44; }
+@mixin pb-48   { padding-bottom: 12rem; /* 192px */ }                          .pb-48 { @include pb-48; }
+@mixin pb-52   { padding-bottom: 13rem; /* 208px */ }                          .pb-52 { @include pb-52; }
+@mixin pb-56   { padding-bottom: 14rem; /* 224px */ }                          .pb-56 { @include pb-56; }
+@mixin pb-60   { padding-bottom: 15rem; /* 240px */ }                          .pb-60 { @include pb-60; }
+@mixin pb-64   { padding-bottom: 16rem; /* 256px */ }                          .pb-64 { @include pb-64; }
+@mixin pb-72   { padding-bottom: 18rem; /* 288px */ }                          .pb-72 { @include pb-72; }
+@mixin pb-80   { padding-bottom: 20rem; /* 320px */ }                          .pb-80 { @include pb-80; }
+@mixin pb-96   { padding-bottom: 24rem; /* 384px */ }                          .pb-96 { @include pb-96; }
+@mixin pl-0    { padding-left: 0; }                                            .pl-0 { @include pl-0; }
+@mixin pl-px   { padding-left: 1px; }                                          .pl-px { @include pl-px; }
+@mixin pl-0\.5 { padding-left: 0.125rem; /* 2px */ }                           .pl-0\.5 { @include pl-0\.5; }
+@mixin pl-1    { padding-left: 0.25rem; /* 4px */ }                            .pl-1 { @include pl-1; }
+@mixin pl-1\.5 { padding-left: 0.375rem; /* 6px */ }                           .pl-1\.5 { @include pl-1\.5; }
+@mixin pl-2    { padding-left: 0.5rem; /* 8px */ }                             .pl-2 { @include pl-2; }
+@mixin pl-2\.5 { padding-left: 0.625rem; /* 10px */ }                          .pl-2\.5 { @include pl-2\.5; }
+@mixin pl-3    { padding-left: 0.75rem; /* 12px */ }                           .pl-3 { @include pl-3; }
+@mixin pl-3\.5 { padding-left: 0.875rem; /* 14px */ }                          .pl-3\.5 { @include pl-3\.5; }
+@mixin pl-4    { padding-left: 1rem; /* 16px */ }                              .pl-4 { @include pl-4; }
+@mixin pl-5    { padding-left: 1.25rem; /* 20px */ }                           .pl-5 { @include pl-5; }
+@mixin pl-6    { padding-left: 1.5rem; /* 24px */ }                            .pl-6 { @include pl-6; }
+@mixin pl-7    { padding-left: 1.75rem; /* 28px */ }                           .pl-7 { @include pl-7; }
+@mixin pl-8    { padding-left: 2rem; /* 32px */ }                              .pl-8 { @include pl-8; }
+@mixin pl-9    { padding-left: 2.25rem; /* 36px */ }                           .pl-9 { @include pl-9; }
+@mixin pl-10   { padding-left: 2.5rem; /* 40px */ }                            .pl-10 { @include pl-10; }
+@mixin pl-11   { padding-left: 2.75rem; /* 44px */ }                           .pl-11 { @include pl-11; }
+@mixin pl-12   { padding-left: 3rem; /* 48px */ }                              .pl-12 { @include pl-12; }
+@mixin pl-14   { padding-left: 3.5rem; /* 56px */ }                            .pl-14 { @include pl-14; }
+@mixin pl-16   { padding-left: 4rem; /* 64px */ }                              .pl-16 { @include pl-16; }
+@mixin pl-20   { padding-left: 5rem; /* 80px */ }                              .pl-20 { @include pl-20; }
+@mixin pl-24   { padding-left: 6rem; /* 96px */ }                              .pl-24 { @include pl-24; }
+@mixin pl-28   { padding-left: 7rem; /* 112px */ }                             .pl-28 { @include pl-28; }
+@mixin pl-32   { padding-left: 8rem; /* 128px */ }                             .pl-32 { @include pl-32; }
+@mixin pl-36   { padding-left: 9rem; /* 144px */ }                             .pl-36 { @include pl-36; }
+@mixin pl-40   { padding-left: 10rem; /* 160px */ }                            .pl-40 { @include pl-40; }
+@mixin pl-44   { padding-left: 11rem; /* 176px */ }                            .pl-44 { @include pl-44; }
+@mixin pl-48   { padding-left: 12rem; /* 192px */ }                            .pl-48 { @include pl-48; }
+@mixin pl-52   { padding-left: 13rem; /* 208px */ }                            .pl-52 { @include pl-52; }
+@mixin pl-56   { padding-left: 14rem; /* 224px */ }                            .pl-56 { @include pl-56; }
+@mixin pl-60   { padding-left: 15rem; /* 240px */ }                            .pl-60 { @include pl-60; }
+@mixin pl-64   { padding-left: 16rem; /* 256px */ }                            .pl-64 { @include pl-64; }
+@mixin pl-72   { padding-left: 18rem; /* 288px */ }                            .pl-72 { @include pl-72; }
+@mixin pl-80   { padding-left: 20rem; /* 320px */ }                            .pl-80 { @include pl-80; }
+@mixin pl-96   { padding-left: 24rem; /* 384px */ }                            .pl-96 { @include pl-96; }
+@mixin pr-0    { padding-right: 0; }                                           .pr-0 { @include pr-0; }
+@mixin pr-px   { padding-right: 1px; }                                         .pr-px { @include pr-px; }
+@mixin pr-0\.5 { padding-right: 0.125rem; /* 2px */ }                          .pr-0\.5 { @include pr-0\.5; }
+@mixin pr-1    { padding-right: 0.25rem; /* 4px */ }                           .pr-1 { @include pr-1; }
+@mixin pr-1\.5 { padding-right: 0.375rem; /* 6px */ }                          .pr-1\.5 { @include pr-1\.5; }
+@mixin pr-2    { padding-right: 0.5rem; /* 8px */ }                            .pr-2 { @include pr-2; }
+@mixin pr-2\.5 { padding-right: 0.625rem; /* 10px */ }                         .pr-2\.5 { @include pr-2\.5; }
+@mixin pr-3    { padding-right: 0.75rem; /* 12px */ }                          .pr-3 { @include pr-3; }
+@mixin pr-3\.5 { padding-right: 0.875rem; /* 14px */ }                         .pr-3\.5 { @include pr-3\.5; }
+@mixin pr-4    { padding-right: 1rem; /* 16px */ }                             .pr-4 { @include pr-4; }
+@mixin pr-5    { padding-right: 1.25rem; /* 20px */ }                          .pr-5 { @include pr-5; }
+@mixin pr-6    { padding-right: 1.5rem; /* 24px */ }                           .pr-6 { @include pr-6; }
+@mixin pr-7    { padding-right: 1.75rem; /* 28px */ }                          .pr-7 { @include pr-7; }
+@mixin pr-8    { padding-right: 2rem; /* 32px */ }                             .pr-8 { @include pr-8; }
+@mixin pr-9    { padding-right: 2.25rem; /* 36px */ }                          .pr-9 { @include pr-9; }
+@mixin pr-10   { padding-right: 2.5rem; /* 40px */ }                           .pr-10 { @include pr-10; }
+@mixin pr-11   { padding-right: 2.75rem; /* 44px */ }                          .pr-11 { @include pr-11; }
+@mixin pr-12   { padding-right: 3rem; /* 48px */ }                             .pr-12 { @include pr-12; }
+@mixin pr-14   { padding-right: 3.5rem; /* 56px */ }                           .pr-14 { @include pr-14; }
+@mixin pr-16   { padding-right: 4rem; /* 64px */ }                             .pr-16 { @include pr-16; }
+@mixin pr-20   { padding-right: 5rem; /* 80px */ }                             .pr-20 { @include pr-20; }
+@mixin pr-24   { padding-right: 6rem; /* 96px */ }                             .pr-24 { @include pr-24; }
+@mixin pr-28   { padding-right: 7rem; /* 112px */ }                            .pr-28 { @include pr-28; }
+@mixin pr-32   { padding-right: 8rem; /* 128px */ }                            .pr-32 { @include pr-32; }
+@mixin pr-36   { padding-right: 9rem; /* 144px */ }                            .pr-36 { @include pr-36; }
+@mixin pr-40   { padding-right: 10rem; /* 160px */ }                           .pr-40 { @include pr-40; }
+@mixin pr-44   { padding-right: 11rem; /* 176px */ }                           .pr-44 { @include pr-44; }
+@mixin pr-48   { padding-right: 12rem; /* 192px */ }                           .pr-48 { @include pr-48; }
+@mixin pr-52   { padding-right: 13rem; /* 208px */ }                           .pr-52 { @include pr-52; }
+@mixin pr-56   { padding-right: 14rem; /* 224px */ }                           .pr-56 { @include pr-56; }
+@mixin pr-60   { padding-right: 15rem; /* 240px */ }                           .pr-60 { @include pr-60; }
+@mixin pr-64   { padding-right: 16rem; /* 256px */ }                           .pr-64 { @include pr-64; }
+@mixin pr-72   { padding-right: 18rem; /* 288px */ }                           .pr-72 { @include pr-72; }
+@mixin pr-80   { padding-right: 20rem; /* 320px */ }                           .pr-80 { @include pr-80; }
+@mixin pr-96   { padding-right: 24rem; /* 384px */ }                           .pr-96 { @include pr-96; }
+@mixin ps-0    { padding-inline-start: 0; }                                    .ps-0 { @include ps-0; }
+@mixin ps-px   { padding-inline-start: 1px; }                                  .ps-px { @include ps-px; }
+@mixin ps-0\.5 { padding-inline-start: 0.125rem; /* 2px */ }                   .ps-0\.5 { @include ps-0\.5; }
+@mixin ps-1    { padding-inline-start: 0.25rem; /* 4px */ }                    .ps-1 { @include ps-1; }
+@mixin ps-1\.5 { padding-inline-start: 0.375rem; /* 6px */ }                   .ps-1\.5 { @include ps-1\.5; }
+@mixin ps-2    { padding-inline-start: 0.5rem; /* 8px */ }                     .ps-2 { @include ps-2; }
+@mixin ps-2\.5 { padding-inline-start: 0.625rem; /* 10px */ }                  .ps-2\.5 { @include ps-2\.5; }
+@mixin ps-3    { padding-inline-start: 0.75rem; /* 12px */ }                   .ps-3 { @include ps-3; }
+@mixin ps-3\.5 { padding-inline-start: 0.875rem; /* 14px */ }                  .ps-3\.5 { @include ps-3\.5; }
+@mixin ps-4    { padding-inline-start: 1rem; /* 16px */ }                      .ps-4 { @include ps-4; }
+@mixin ps-5    { padding-inline-start: 1.25rem; /* 20px */ }                   .ps-5 { @include ps-5; }
+@mixin ps-6    { padding-inline-start: 1.5rem; /* 24px */ }                    .ps-6 { @include ps-6; }
+@mixin ps-7    { padding-inline-start: 1.75rem; /* 28px */ }                   .ps-7 { @include ps-7; }
+@mixin ps-8    { padding-inline-start: 2rem; /* 32px */ }                      .ps-8 { @include ps-8; }
+@mixin ps-9    { padding-inline-start: 2.25rem; /* 36px */ }                   .ps-9 { @include ps-9; }
+@mixin ps-10   { padding-inline-start: 2.5rem; /* 40px */ }                    .ps-10 { @include ps-10; }
+@mixin ps-11   { padding-inline-start: 2.75rem; /* 44px */ }                   .ps-11 { @include ps-11; }
+@mixin ps-12   { padding-inline-start: 3rem; /* 48px */ }                      .ps-12 { @include ps-12; }
+@mixin ps-14   { padding-inline-start: 3.5rem; /* 56px */ }                    .ps-14 { @include ps-14; }
+@mixin ps-16   { padding-inline-start: 4rem; /* 64px */ }                      .ps-16 { @include ps-16; }
+@mixin ps-20   { padding-inline-start: 5rem; /* 80px */ }                      .ps-20 { @include ps-20; }
+@mixin ps-24   { padding-inline-start: 6rem; /* 96px */ }                      .ps-24 { @include ps-24; }
+@mixin ps-28   { padding-inline-start: 7rem; /* 112px */ }                     .ps-28 { @include ps-28; }
+@mixin ps-32   { padding-inline-start: 8rem; /* 128px */ }                     .ps-32 { @include ps-32; }
+@mixin ps-36   { padding-inline-start: 9rem; /* 144px */ }                     .ps-36 { @include ps-36; }
+@mixin ps-40   { padding-inline-start: 10rem; /* 160px */ }                    .ps-40 { @include ps-40; }
+@mixin ps-44   { padding-inline-start: 11rem; /* 176px */ }                    .ps-44 { @include ps-44; }
+@mixin ps-48   { padding-inline-start: 12rem; /* 192px */ }                    .ps-48 { @include ps-48; }
+@mixin ps-52   { padding-inline-start: 13rem; /* 208px */ }                    .ps-52 { @include ps-52; }
+@mixin ps-56   { padding-inline-start: 14rem; /* 224px */ }                    .ps-56 { @include ps-56; }
+@mixin ps-60   { padding-inline-start: 15rem; /* 240px */ }                    .ps-60 { @include ps-60; }
+@mixin ps-64   { padding-inline-start: 16rem; /* 256px */ }                    .ps-64 { @include ps-64; }
+@mixin ps-72   { padding-inline-start: 18rem; /* 288px */ }                    .ps-72 { @include ps-72; }
+@mixin ps-80   { padding-inline-start: 20rem; /* 320px */ }                    .ps-80 { @include ps-80; }
+@mixin ps-96   { padding-inline-start: 24rem; /* 384px */ }                    .ps-96 { @include ps-96; }
+@mixin pe-0    { padding-inline-end: 0; }                                      .pe-0 { @include pe-0; }
+@mixin pe-px   { padding-inline-end: 1px; }                                    .pe-px { @include pe-px; }
+@mixin pe-0\.5 { padding-inline-end: 0.125rem; /* 2px */ }                     .pe-0\.5 { @include pe-0\.5; }
+@mixin pe-1    { padding-inline-end: 0.25rem; /* 4px */ }                      .pe-1 { @include pe-1; }
+@mixin pe-1\.5 { padding-inline-end: 0.375rem; /* 6px */ }                     .pe-1\.5 { @include pe-1\.5; }
+@mixin pe-2    { padding-inline-end: 0.5rem; /* 8px */ }                       .pe-2 { @include pe-2; }
+@mixin pe-2\.5 { padding-inline-end: 0.625rem; /* 10px */ }                    .pe-2\.5 { @include pe-2\.5; }
+@mixin pe-3    { padding-inline-end: 0.75rem; /* 12px */ }                     .pe-3 { @include pe-3; }
+@mixin pe-3\.5 { padding-inline-end: 0.875rem; /* 14px */ }                    .pe-3\.5 { @include pe-3\.5; }
+@mixin pe-4    { padding-inline-end: 1rem; /* 16px */ }                        .pe-4 { @include pe-4; }
+@mixin pe-5    { padding-inline-end: 1.25rem; /* 20px */ }                     .pe-5 { @include pe-5; }
+@mixin pe-6    { padding-inline-end: 1.5rem; /* 24px */ }                      .pe-6 { @include pe-6; }
+@mixin pe-7    { padding-inline-end: 1.75rem; /* 28px */ }                     .pe-7 { @include pe-7; }
+@mixin pe-8    { padding-inline-end: 2rem; /* 32px */ }                        .pe-8 { @include pe-8; }
+@mixin pe-9    { padding-inline-end: 2.25rem; /* 36px */ }                     .pe-9 { @include pe-9; }
+@mixin pe-10   { padding-inline-end: 2.5rem; /* 40px */ }                      .pe-10 { @include pe-10; }
+@mixin pe-11   { padding-inline-end: 2.75rem; /* 44px */ }                     .pe-11 { @include pe-11; }
+@mixin pe-12   { padding-inline-end: 3rem; /* 48px */ }                        .pe-12 { @include pe-12; }
+@mixin pe-14   { padding-inline-end: 3.5rem; /* 56px */ }                      .pe-14 { @include pe-14; }
+@mixin pe-16   { padding-inline-end: 4rem; /* 64px */ }                        .pe-16 { @include pe-16; }
+@mixin pe-20   { padding-inline-end: 5rem; /* 80px */ }                        .pe-20 { @include pe-20; }
+@mixin pe-24   { padding-inline-end: 6rem; /* 96px */ }                        .pe-24 { @include pe-24; }
+@mixin pe-28   { padding-inline-end: 7rem; /* 112px */ }                       .pe-28 { @include pe-28; }
+@mixin pe-32   { padding-inline-end: 8rem; /* 128px */ }                       .pe-32 { @include pe-32; }
+@mixin pe-36   { padding-inline-end: 9rem; /* 144px */ }                       .pe-36 { @include pe-36; }
+@mixin pe-40   { padding-inline-end: 10rem; /* 160px */ }                      .pe-40 { @include pe-40; }
+@mixin pe-44   { padding-inline-end: 11rem; /* 176px */ }                      .pe-44 { @include pe-44; }
+@mixin pe-48   { padding-inline-end: 12rem; /* 192px */ }                      .pe-48 { @include pe-48; }
+@mixin pe-52   { padding-inline-end: 13rem; /* 208px */ }                      .pe-52 { @include pe-52; }
+@mixin pe-56   { padding-inline-end: 14rem; /* 224px */ }                      .pe-56 { @include pe-56; }
+@mixin pe-60   { padding-inline-end: 15rem; /* 240px */ }                      .pe-60 { @include pe-60; }
+@mixin pe-64   { padding-inline-end: 16rem; /* 256px */ }                      .pe-64 { @include pe-64; }
+@mixin pe-72   { padding-inline-end: 18rem; /* 288px */ }                      .pe-72 { @include pe-72; }
+@mixin pe-80   { padding-inline-end: 20rem; /* 320px */ }                      .pe-80 { @include pe-80; }
+@mixin pe-96   { padding-inline-end: 24rem; /* 384px */ }                      .pe-96 { @include pe-96; }

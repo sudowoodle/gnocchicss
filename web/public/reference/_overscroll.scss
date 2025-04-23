@@ -1,0 +1,9 @@
+@mixin overscroll-auto      { overscroll-behavior: auto; }      .overscroll-auto { @include overscroll-auto; }
+@mixin overscroll-contain   { overscroll-behavior: contain; }   .overscroll-contain { @include overscroll-contain; }
+@mixin overscroll-none      { overscroll-behavior: none; }      .overscroll-none { @include overscroll-none; }
+@mixin overscroll-y-auto    { overscroll-behavior-y: auto; }    .overscroll-y-auto { @include overscroll-y-auto; }
+@mixin overscroll-y-contain { overscroll-behavior-y: contain; } .overscroll-y-contain { @include overscroll-y-contain; }
+@mixin overscroll-y-none    { overscroll-behavior-y: none; }    .overscroll-y-none { @include overscroll-y-none; }
+@mixin overscroll-x-auto    { overscroll-behavior-x: auto; }    .overscroll-x-auto { @include overscroll-x-auto; }
+@mixin overscroll-x-contain { overscroll-behavior-x: contain; } .overscroll-x-contain { @include overscroll-x-contain; }
+@mixin overscroll-x-none    { overscroll-behavior-x: none; }    .overscroll-x-none { @include overscroll-x-none; }

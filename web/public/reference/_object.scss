@@ -1,0 +1,14 @@
+@mixin object-contain      { object-fit: contain; }           .object-contain { @include object-contain; }
+@mixin object-cover        { object-fit: cover; }             .object-cover { @include object-cover; }
+@mixin object-fill         { object-fit: fill; }              .object-fill { @include object-fill; }
+@mixin object-none         { object-fit: none; }              .object-none { @include object-none; }
+@mixin object-scale-down   { object-fit: scale-down; }        .object-scale-down { @include object-scale-down; }
+@mixin object-bottom       { object-position: bottom; }       .object-bottom { @include object-bottom; }
+@mixin object-center       { object-position: center; }       .object-center { @include object-center; }
+@mixin object-left         { object-position: left; }         .object-left { @include object-left; }
+@mixin object-left-bottom  { object-position: left bottom; }  .object-left-bottom { @include object-left-bottom; }
+@mixin object-left-top     { object-position: left top; }     .object-left-top { @include object-left-top; }
+@mixin object-right        { object-position: right; }        .object-right { @include object-right; }
+@mixin object-right-bottom { object-position: right bottom; } .object-right-bottom { @include object-right-bottom; }
+@mixin object-right-top    { object-position: right top; }    .object-right-top { @include object-right-top; }
+@mixin object-top          { object-position: top; }          .object-top { @include object-top; }

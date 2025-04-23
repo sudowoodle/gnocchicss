@@ -1,0 +1,5 @@
+@mixin static   { position: static; }   .static { @include static; }
+@mixin fixed    { position: fixed; }    .fixed { @include fixed; }
+@mixin absolute { position: absolute; } .absolute { @include absolute; }
+@mixin relative { position: relative; } .relative { @include relative; }
+@mixin sticky   { position: sticky; }   .sticky { @include sticky; }

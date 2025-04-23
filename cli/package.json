@@ -1,0 +1,32 @@
+{
+    "name": "@gnocchicss/cli",
+    "version": "1.0.0-alpha.10",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -b -v"
+    },
+    "devDependencies": {
+        "@gnocchicss/core": "workspace:^",
+        "@types/node": "^22.14.1",
+        "gnocchicss": "workspace:^",
+        "sass": "^1.86.3",
+        "sass-embedded": "^1.86.3",
+        "typescript": "5.5.4"
+    },
+    "peerDependencies": {
+        "@gnocchicss/core": "workspace:^",
+        "gnocchicss": "workspace:^",
+        "sass": "^1.86.3",
+        "sass-embedded": "^1.86.3"
+    },
+    "peerDependenciesMeta": {
+        "sass": {
+            "optional": true
+        },
+        "sass-embedded": {
+            "optional": true
+        }
+    }
+}

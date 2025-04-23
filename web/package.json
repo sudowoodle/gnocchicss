@@ -1,0 +1,35 @@
+{
+    "name": "gnocchi-web",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "yarn vite-ssg build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "fuse.js": "^7.1.0",
+        "json-editor-vue": "^0.18.1",
+        "modern-normalize": "^3.0.1",
+        "pinia": "^3.0.2",
+        "vue": "^3.5.13"
+    },
+    "devDependencies": {
+        "@gnocchicss/core": "workspace:^",
+        "@unhead/vue": "^2.0.8",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "@vue/tsconfig": "^0.7.0",
+        "beasties": "^0.3.2",
+        "dotenv": "^16.4.7",
+        "gnocchicss": "workspace:^",
+        "prettier": "^3.5.3",
+        "sass-embedded": "^1.86.3",
+        "typescript": "~5.7.2",
+        "unhead": "^2.0.8",
+        "vite": "^6.2.6",
+        "vite-ssg": "^26.1.1",
+        "vue-router": "^4.5.0",
+        "vue-tsc": "^2.2.8"
+    }
+}

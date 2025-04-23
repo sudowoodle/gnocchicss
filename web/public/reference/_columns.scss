@@ -1,0 +1,26 @@
+@mixin columns-auto { columns: auto; }               .columns-auto { @include columns-auto; }
+@mixin columns-3xs  { columns: 16rem; /* 256px */ }  .columns-3xs { @include columns-3xs; }
+@mixin columns-2xs  { columns: 18rem; /* 288px */ }  .columns-2xs { @include columns-2xs; }
+@mixin columns-xs   { columns: 20rem; /* 320px */ }  .columns-xs { @include columns-xs; }
+@mixin columns-sm   { columns: 24rem; /* 384px */ }  .columns-sm { @include columns-sm; }
+@mixin columns-md   { columns: 28rem; /* 448px */ }  .columns-md { @include columns-md; }
+@mixin columns-lg   { columns: 32rem; /* 512px */ }  .columns-lg { @include columns-lg; }
+@mixin columns-xl   { columns: 36rem; /* 576px */ }  .columns-xl { @include columns-xl; }
+@mixin columns-2xl  { columns: 42rem; /* 672px */ }  .columns-2xl { @include columns-2xl; }
+@mixin columns-3xl  { columns: 48rem; /* 768px */ }  .columns-3xl { @include columns-3xl; }
+@mixin columns-4xl  { columns: 56rem; /* 896px */ }  .columns-4xl { @include columns-4xl; }
+@mixin columns-5xl  { columns: 64rem; /* 1024px */ } .columns-5xl { @include columns-5xl; }
+@mixin columns-6xl  { columns: 72rem; /* 1152px */ } .columns-6xl { @include columns-6xl; }
+@mixin columns-7xl  { columns: 80rem; /* 1280px */ } .columns-7xl { @include columns-7xl; }
+@mixin columns-1    { columns: 1; }                  .columns-1 { @include columns-1; }
+@mixin columns-2    { columns: 2; }                  .columns-2 { @include columns-2; }
+@mixin columns-3    { columns: 3; }                  .columns-3 { @include columns-3; }
+@mixin columns-4    { columns: 4; }                  .columns-4 { @include columns-4; }
+@mixin columns-5    { columns: 5; }                  .columns-5 { @include columns-5; }
+@mixin columns-6    { columns: 6; }                  .columns-6 { @include columns-6; }
+@mixin columns-7    { columns: 7; }                  .columns-7 { @include columns-7; }
+@mixin columns-8    { columns: 8; }                  .columns-8 { @include columns-8; }
+@mixin columns-9    { columns: 9; }                  .columns-9 { @include columns-9; }
+@mixin columns-10   { columns: 10; }                 .columns-10 { @include columns-10; }
+@mixin columns-11   { columns: 11; }                 .columns-11 { @include columns-11; }
+@mixin columns-12   { columns: 12; }                 .columns-12 { @include columns-12; }

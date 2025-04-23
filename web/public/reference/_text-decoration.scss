@@ -1,0 +1,4 @@
+@mixin underline    { text-decoration: underline; }    .underline { @include underline; }
+@mixin overline     { text-decoration: overline; }     .overline { @include overline; }
+@mixin line-through { text-decoration: line-through; } .line-through { @include line-through; }
+@mixin no-underline { text-decoration: none; }         .no-underline { @include no-underline; }

@@ -1,0 +1,2 @@
+@mixin isolate        { isolation: isolate; } .isolate { @include isolate; }
+@mixin isolation-auto { isolation: auto; }    .isolation-auto { @include isolation-auto; }

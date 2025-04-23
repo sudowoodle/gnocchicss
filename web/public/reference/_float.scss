@@ -1,0 +1,5 @@
+@mixin float-start { float: inline-start; } .float-start { @include float-start; }
+@mixin float-end   { float: inline-end; }   .float-end { @include float-end; }
+@mixin float-right { float: right; }        .float-right { @include float-right; }
+@mixin float-left  { float: left; }         .float-left { @include float-left; }
+@mixin float-none  { float: none; }         .float-none { @include float-none; }
