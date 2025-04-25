@@ -1,3 +1,15 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+import Logo from '@/assets/logo-shadow.png'
+
+useHead({
+    title: 'GnocchiCSS - A utility-first SASS framework',
+    meta: [
+        { name: 'description', content: 'Type Checking and Extensible CSS solution for modern web apps' },
+    ],
+})
+</script>
+
 <template>
     <div class="home">
         <!-- Navigation Header -->
@@ -21,8 +33,8 @@
                     Gnocchi<span class="highlight">CSS</span>
                 </h1>
                 <p class="description">
-                    The intuitive styling solution for modern web apps.
-                    Type Safe, Extensible, and Modular by design.
+                    A utility-first SASS framework for modern web apps.
+                    Type Checking and Extensible by design.
                 </p>
                 <div class="cta-buttons">
                     <button class="btn primary">Get Started</button>
@@ -36,36 +48,36 @@
             <h2>Features</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <div class="icon">🎨</div>
-                    <h3>Intuitive</h3>
-                    <p>Write styles as naturally as you write components. API designed for developer happiness.</p>
-                </div>
-                <div class="feature-card">
                     <div class="icon">🔒</div>
                     <h3>Compile-time Checking</h3>
-                    <p>Sass compiler will check for errors.</p>
+                    <p>Catch errors instantly with powerful compile-time validation — no surprises at runtime.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="icon">🚀</div>
-                    <h3>Lightning Fast</h3>
-                    <p>Optimized for performance with minimal runtime overhead and efficient compilation.</p>
+                    <div class="icon">🎨</div>
+                    <h3>Extensible</h3>
+                    <p>Customize every detail, from colors to spacing, with a flexible, developer-friendly API.</p>
                 </div>
+                <div class="feature-card">
+                    <div class="icon">🚀</div> 
+                    <h3>Adopt Incrementally</h3>
+                    <p>Seamlessly integrate into existing Sass projects — no rewrites, just results</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Section -->
+        <section class="github">
+            <div class="github-content">
+                <h2>Open Source</h2>
+                <p>GnocchiCSS is open source and available on GitHub. Join our community of developers!</p>
+                <a href="https://github.com/sudowoodle/gnocchicss" target="_blank" rel="noopener noreferrer" class="github-link">
+                    <span class="github-icon">📦</span>
+                    View on GitHub
+                </a>
             </div>
         </section>
     </div>
 </template>
-
-<script setup lang="ts">
-import { useHead } from '@unhead/vue'
-import Logo from '@/assets/logo-shadow.png'
-
-useHead({
-    title: 'GnocchiCSS - The intuitive styling solution',
-    meta: [
-        { name: 'description', content: 'Type Safe, Extensible, and Modular CSS solution for modern web apps' },
-    ],
-})
-</script>
 
 <style lang="scss" scoped>
 @use 'gnocchicss' as *;
@@ -272,6 +284,59 @@ useHead({
         @include border-b-4;
         @include border-solid;
         @include border-forest-green;
+    }
+}
+
+.github {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 4rem 2rem;
+    // @include bg-cream;
+
+    &-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        @include text-forest-green;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+    }
+
+    p {
+        @include text-forest-green;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    @include p-4;
+    @include border-4;
+    @include border-solid;
+    @include border-forest-green;
+    @include rounded-none;
+    @include text-forest-green;
+    @include bg-cream;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 4px 4px 0 var(--forest-green);
+    }
+
+    .github-icon {
+        font-size: 1.5rem;
     }
 }
 
