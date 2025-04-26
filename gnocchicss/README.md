@@ -15,7 +15,7 @@ yarn add gnocchicss sass-embedded
 ## Usage with Vite
 
 ```ts
-import gnocchicssPlugin from 'gnocchicss';
+import { gnocchicssPlugin } from 'gnocchicss';
 
 export default defineConfig({
   plugins: [gnocchicssPlugin()],
@@ -24,7 +24,7 @@ export default defineConfig({
 You can pass custom config to the plugin.
 
 ```ts
-import gnocchicssPlugin from 'gnocchicss';
+import { gnocchicssPlugin } from 'gnocchicss';
 
 export default defineConfig({
   plugins: [gnocchicssPlugin({
