@@ -34,5 +34,14 @@
         "sass-embedded": {
             "optional": true
         }
-    }
+    },
+    "keywords": [
+        "css",
+        "sass",
+        "scss",
+        "gnocchi",
+        "gnocchicss",
+        "vite-plugin"
+    ],
+    "license": "MIT"
 }

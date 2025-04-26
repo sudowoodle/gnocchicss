@@ -20,23 +20,43 @@ jobs:
       - run: yarn ci
       - uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: gnocchicss_dist
+          path: gnocchicss/dist
+          if-no-files-found: error 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: core_dist
+          path: core/dist
           if-no-files-found: error 
 
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+      - run: corepack enable
       - uses: actions/download-artifact@v4
         with:
-          name: dist
-          path: dist
-      - run: npm publish
+          name: core_dist
+          path: core/dist
+      - name: Publish Core
+        working-directory: ./core
+        run: npm publish --provenance --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - uses: actions/download-artifact@v4
+        with:
+          name: gnocchicss_dist
+          path: gnocchicss/dist
+      - name: Publish GnocchiCSS
+        working-directory: ./gnocchicss
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
