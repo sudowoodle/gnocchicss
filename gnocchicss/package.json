@@ -1,9 +1,13 @@
 {
     "name": "gnocchicss",
-    "version": "1.0.0-alpha.10",
+    "version": "1.0.0-alpha.11",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sudowoodle/gnocchicss.git"
+    },
     "scripts": {
         "build": "tsc -b -v"
     },
